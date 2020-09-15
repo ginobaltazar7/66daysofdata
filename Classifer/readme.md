@@ -1,4 +1,4 @@
-# Adult Census
+# Adult Census Classifier
 
 The United States Adult income dataset was extracted by Barry Becker from the 1994 US Census Database. The data consists of anonymized information such as occupation, age, native country, race, capital gain, capital loss, education, work class and more.
 
