@@ -1,6 +1,6 @@
 # 66daysofdata
 
-In support of the #66daysofdata initiative and the data science community, this repo is a collection of daily data engineering and data science code and experiments for 66 days.  
+In support of the #66daysofdata initiative and the data science community, this repo is a collection of (almost) daily data engineering and data science code and experiments for 66 days.  
 
 "Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology.
 -Ken Jee"
