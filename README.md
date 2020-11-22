@@ -2,16 +2,54 @@
 
 In support of the #66daysofdata initiative and the data science community, this repo is a collection of (almost) daily data engineering and data science code and experiments for 66 days+.  
 
-"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology."
-
--Ken Jee
+*"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology. (Ken Jee)"*
 
 
-66daysofdata On Discord
-https://discord.com/invite/VXSUJYJ
+[Discord](https://discord.com/invite/VXSUJYJ)
+[Twitter](https://twitter.com/KenJee_DS/status/1299734773456203777)
+[Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
-Ken Jee On Twitter and Youtube
-https://twitter.com/KenJee_DS/status/1299734773456203777
-https://www.youtube.com/watch?v=uXLnbdHMf8w
 
+## Useful Reads to Share ##
+
+- Gallery of interesting Jupyter Notebooks by Lorena Barba https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+
+- From Python to Numpy by Inria researcher Nicolas P. Rougier https://www.labri.fr/perso/nrougier/from-python-to-numpy/#id7
+
+- Vectorize your Conditional Loops in Python by Tirthajyokti Sarkar https://towardsdatascience.com/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-9484ff9c622e
+
+- Combinatorial Optimization in Python by Google Developers https://developers.google.com/optimization/introduction/python
+
+- Uber Engineering Combats Fraud, Builds 'Mastermind', using Python's Abstract Syntax Tree by Yifu Dao and Isabel Geracioti https://eng.uber.com/mastermind/  
+
+- Improving Machine Learning Model Performance by Andrew Ng, https://www.youtube.com/watch?v=dFX8k1kXhOw&list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b
+
+- The Hundred-Page Machine Learning Book by Andriy Burkov, https://www.amazon.com/Hundred-Page-Machine-Learning-Book/dp/199957950X
+
+- Data Scientist Toolkit by Andriy Burkov, https://www.linkedin.com/pulse/data-scientists-toolkit-andriy-burkov?trk=d_public_post_promoted_post
+
+- Deep Learning Recommender, Survey and Perspectives, by Zhang, Yao, et al https://arxiv.org/pdf/1707.07435.pdf
+
+- Develop a NLP Model in Python & Deploy It with Flask, by Susan Li, https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776
+
+- Kubeflow at LinkedIn by Abin Shahab & Tengfei Mu, LinkedIn. Kubeflow is an open source Kubernetes-native platform for orchestrating and deploying machine learning workloads. https://www.youtube.com/watch?v=kExwqij11cg
+
+- Quantitative Economics using Python, Stachurski, John. https://lectures.quantecon.org/py/
+
+
+### Data Sets
+
+- /r/datasets - A subreddit for sharing datasets.https://www.reddit.com/r/datasets/
+
+- Institute for Reproducible Research. http://academictorrents.com/browse.php?cat=6 
+
+- Travel related Amadeus https://developers.amadeus.com/quick-start-guide/category?id=97&durl=335&parentId=NaN and other travel APIs via Altexsoft https://www.altexsoft.com/blog/engineering/travel-and-booking-apis-for-online-travel-and-tourism-service-providers/
+
+### Databases
+
+- Non-native vs Native Graph Technology https://neo4j.com/blog/native-vs-non-native-graph-technology/
+
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
