@@ -36,6 +36,9 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - Quantitative Economics using Python, Stachurski, John. https://lectures.quantecon.org/py/
 
+- NYU Deep Learning SP20, speakers Yann Le Cun, Alfredo Canziani
+ https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq
+
 - Schema Unification with Snowflake, Chinmayee Lakkad. https://medium.com/hashmapinc/schema-unification-with-snowflake-de3cbf8444e
 
 - Using DBT to Execute ELT pipelines in Snowflake. https://medium.com/hashmapinc/using-dbt-to-execute-elt-pipelines-in-snowflake-dbe76d5beed5
