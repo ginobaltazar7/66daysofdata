@@ -14,6 +14,6 @@ The Binary search's efficiency on the other hand is expressed as O(log n) which 
 
 Read more >>
 
-https://towardsdatascience.com/logarithms-exponents-in-complexity-analysis-b8071979e847#:~:text=Logarithmic%20time%20complexity%20log(n,Example%3A%20binary%20search.
+https://towardsdatascience.com/logarithms-exponents-in-complexity-analysis-b8071979e847#:~:text=Logarithmic%20time%20complexity%20log(n,Example%3A%20binary%20search
 
 
