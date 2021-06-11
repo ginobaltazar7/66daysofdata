@@ -55,11 +55,23 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 ### Data Sets
 
-- /r/datasets - A subreddit for sharing datasets.https://www.reddit.com/r/datasets/
+- /r/datasets - A subreddit for sharing datasets https://www.reddit.com/r/datasets/
 
 - Institute for Reproducible Research. http://academictorrents.com/browse.php?cat=6 
 
 - Travel related Amadeus https://developers.amadeus.com/quick-start-guide/category?id=97&durl=335&parentId=NaN and other travel APIs via Altexsoft https://www.altexsoft.com/blog/engineering/travel-and-booking-apis-for-online-travel-and-tourism-service-providers/
+
+
+### Excel
+
+Microsoft Excel is still widely used today for starting analyses e.g. in healthcare, government, non-profit. Sampling of useful resources.
+
+- Analysis Toolpak https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4
+
+- Via Chandoo, he used to have a lot of free stuff but now he also does paid training  https://chandoo.org/wp/trendlines-and-forecasting-in-excel-part-3/
+
+- Non-online resource I recomment is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel" http://shop.oreilly.com/product/9780596100735.do
+
 
 ### Databases
 
