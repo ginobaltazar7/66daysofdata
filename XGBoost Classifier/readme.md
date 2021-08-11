@@ -6,12 +6,20 @@ Each row is labelled as either having a salary ">50K" or "<=50K".
 
 The goal is to train a binary classifier on the training dataset to predict the column income_bracket which has two possible values ">50K" and "<=50K" and evaluate the accuracy of the classifier with the test dataset.
 
-Chose to use XGBoost as the binary classifier to model the prediction,an ensemble technique that trains models in succession, with each new model being trained to correct the errors made by previous ones. 
+Chose to use XGBoost as the binary classifier to model the prediction, an ensemble technique that trains models in succession, with each new model being trained to correct the errors made by previous ones. 
 
-Read more on XGBoost:
+### Read more on XGBoost
 
 https://homes.cs.washington.edu/~tqchen/2016/03/10/story-and-lessons-behind-the-evolution-of-xgboost.html
 
 https://towardsdatascience.com/a-beginners-guide-to-xgboost-87f5d4c30ed7
 
+https://github.com/dmlc/xgboost
 
+
+### Open in Colab
+
+[![Open XGBoost Classifier Sample In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/XGBoost%20Classifier/Adult_Census.ipynb)
+
+### Made using 
+[![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
