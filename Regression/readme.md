@@ -13,7 +13,6 @@ As with any technique, training a deep learning model might not be the best choi
 
 ### Open in Colab
 
-#### ChatGPT_Sample
 [![Open 'Regression' In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/Regression/TF%20Regression.ipynb)
 
 
