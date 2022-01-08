@@ -10,7 +10,13 @@ Naive Bayes tend to perform especially well in one of the following use cases:
 
 
 
+### Open in Colab
 
+[![Open 'Naive Bayes' In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/Naive%20Bayes%20Classifier/NaiveBayes.ipynb)
+
+
+### Made using 
+[![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 
 
