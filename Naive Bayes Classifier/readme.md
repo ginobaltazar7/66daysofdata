@@ -9,6 +9,8 @@ Naive Bayes tend to perform especially well in one of the following use cases:
 - For very high-dimensional data, when model complexity is less important
 
 
+"Probablity is ordered opinion."
+-Thomas Bayes
 
 ### Open in Colab
 
