@@ -36,6 +36,13 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - Quantitative Economics using Python, Stachurski, John. https://lectures.quantecon.org/py/
 
+- Schema Unification with Snowflake, Chinmayee Lakkad. https://medium.com/hashmapinc/schema-unification-with-snowflake-de3cbf8444e
+
+- Using DBT to Execute ELT pipelines in Snowflake. https://medium.com/hashmapinc/using-dbt-to-execute-elt-pipelines-in-snowflake-dbe76d5beed5
+
+- Redox Connector to Azure for Healthcare, John Aven. https://www.prnewswire.com/news-releases/redox-launches-connector-to-microsoft-cloud-for-healthcare-through-microsoft-azure-and-appsource-marketplaces-301407702.html
+
+- Redox Git https://github.com/RedoxEngine and its HL7v2 parser/generator https://github.com/RedoxEngine/redox-hl7-v2 
 
 ### Data Sets
 
