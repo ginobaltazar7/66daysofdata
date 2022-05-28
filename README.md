@@ -46,6 +46,8 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - Endava Demo https://github.com/Endava/endava-hl7fhir-openapi
 
+- Healthcare Spark NLP to categorize publications https://medium.com/@silviaonofrei/topic-modeling-with-healthcare-spark-nlp-57cbb78a0201
+
 ### Data Sets
 
 - /r/datasets - A subreddit for sharing datasets.https://www.reddit.com/r/datasets/
