@@ -48,6 +48,8 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - Healthcare Spark NLP to categorize publications https://medium.com/@silviaonofrei/topic-modeling-with-healthcare-spark-nlp-57cbb78a0201
 
+- Fireside Chat with Aparna Ramani & Yann LeCun at May 2022 Data@Scale, touches on self-supervised machine learning and emerging DS trends https://fb.watch/dvgGdS02Yk/ 
+
 ### Data Sets
 
 - /r/datasets - A subreddit for sharing datasets.https://www.reddit.com/r/datasets/
