@@ -68,6 +68,8 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 
 - Analysis Toolpak https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4
 
+- Via David Langer, free and paid training on Excel for Business, R and even courses on Regression and Machine Learning. https://school.daveondata.com/p/home, https://youtu.be/1hmJwCPh0IY 
+
 - Via Chandoo, he used to have a lot of free stuff but now he also does paid training  https://chandoo.org/wp/trendlines-and-forecasting-in-excel-part-3/
 
 - Non-online resource I recomment is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel" http://shop.oreilly.com/product/9780596100735.do
