@@ -84,7 +84,7 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 
 If you like my work consider supporting me!
 
-[![Open 'Naive Bayes' In Colab](https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ginobaltazar" data-color="#40DCA5" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00)](https://www.buymeacoffee.com/ginobaltazar)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
 
 ## License
 
