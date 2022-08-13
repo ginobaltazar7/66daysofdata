@@ -10,6 +10,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
 
+
 ## Useful Reads to Share ##
 
 - Gallery of interesting Jupyter Notebooks by Lorena Barba https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
@@ -78,6 +79,12 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 ### Databases
 
 - Non-native vs Native Graph Technology https://neo4j.com/blog/native-vs-non-native-graph-technology/
+
+### Support Me
+
+If you like my work consider supporting me!
+
+[![Open 'Naive Bayes' In Colab](https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ginobaltazar" data-color="#40DCA5" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00)](https://www.buymeacoffee.com/ginobaltazar)
 
 ## License
 
