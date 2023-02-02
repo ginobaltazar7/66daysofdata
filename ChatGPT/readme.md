@@ -2,7 +2,7 @@
 
 Open AI's ChatGPT based Chatbot using Python and Gradio 
 
-OpenAI has trained remarkable language models that are quite impressive at understanding and generating text. This is a short demo of how OpenAI's API provides access to these models and how they can be used to solve tasks involving language processing. 
+OpenAI has trained language models that are quite impressive at understanding and generating text. This is a short demo of how OpenAI's API provides access to these models and how they can be used to solve tasks involving language processing. 
 
 ### Open in Colab
 
@@ -21,19 +21,19 @@ OpenAI has trained remarkable language models that are quite impressive at under
 
 #### ChatGPT_Sample
 
-![Output 1](./images/ChatGPTOut1.png)
+![Output 1](./outputs/ChatGPTOut1.png)
 
-![Output 2](./images/ChatGPTOut2.png)
+![Output 2](./outputs/ChatGPTOut2.png)
 
 
 #### Voice_to_Text_ChatGPT_Sample
 
-![Output 2](./images/Voice2Text_ChatGPT.png)
+![Output 2](./outputs/Voice2Text_ChatGPT.png)
 
 
 
 #### Disclaimer
-This project is not affiliated with OpenAI in any way. Please use at your own risk. I am not responsible for any damage caused by this project. Please read the OpenAI Terms of Service before using this project.
+This project is not affiliated with OpenAI in any way. Please use at your own risk and we are not responsible for any damage caused by the sample code in this repo. Please read the OpenAI Terms of Service.
 
 
 
