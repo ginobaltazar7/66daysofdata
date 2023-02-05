@@ -17,7 +17,14 @@ OpenAI has trained language models that are quite impressive at understanding an
 [![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 
-### Outputs
+### Support Me
+
+If you like my work consider supporting me!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
+
+
+### ChatGPT Outputs
 
 #### ChatGPT_Sample
 
