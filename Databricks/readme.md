@@ -1,17 +1,12 @@
-# Postgres
+# Databricks
 
-Bookmarking a short Colab notebook demonstrating how to connect and query data from a Cloud SQL Postgrest db in GCP.
+Bookmarking resources used to undertake Associate Spark Developer program.
 
-Here's a link to [free credits on GCP](https://cloud.google.com/free/docs/gcp-free-tier)
-
-
-"Try to be a rainbow in someone's cloud." 
--Maya Angelou
+Here's a link to the program [via Databricks Customer Academy](https://customer-academy.databricks.com/learn/course/internal/view/elearning/81/certification-overview-databricks-certified-associate-developer-for-apache-spark-exam)
 
 
-### Open in Colab
-
-[![Open 'Postgres Python Connector' In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/Postgres/postgres_python_connector.ipynb)
+"It is a capital mistake to theorize before one has data" 
+-Sherlock Holmes
 
 
 ### Made using 
