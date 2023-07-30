@@ -1,26 +1,27 @@
-# Speech Recognition
+# Simple Vector Database
 
-Short demo of how to use NVIDIA NeMo (https://github.com/NVIDIA/NeMo) to swap a voice in the audio fragment with a computer generated one.
+A vector database is a specialized type of database designed to store, and manage large collections of vectors - which is an ordered list of elements that can represent or encode data that requires 2+ variables for its measurement.
 
-At its core the demo does:
+Contrast this with 'scalars' which requires only one type of variable for its measurement.
 
-- Automatic speech recognition of what is said in the file, e.g. converting audio to text
-- Adds punctuation and capitalization to the text
-- Generates spectrogram from resulting text
-- Generates waveform audio from the spectrogram.
+When we say that a sailboat traveled for 2 miles upwind, we are describing its movement in a scalar way -
 
-### Read more on Nvidia Nemo
+But when we say that a sailboat traveled for 2 miles downwind, 10 degrees northeast from its initial position, we are describing its movement in a vectorized way - it has magnitude and direction.
 
-https://developer.nvidia.com/nvidia-nemo
+Vectors are important in data science and machine learning because they allow us to represent complex data in a more representative, useful and structured way.
 
-https://towardsdatascience.com/beginners-guide-to-nvidia-nemo-e5512862cd8e
+So-called 'feature vectors' are used widely in machine learning because of the effectiveness and practicality of representing objects in a numerical way to help with many kinds of analyses. They are good for analysis because there are many techniques for comparing feature vectors, using for example cosine similarity or Euclidean distance.
 
-https://github.com/NVIDIA/NeMo
+### Read more 
+
+An introduction -> https://machinelearningmastery.com/gentle-introduction-vectors-machine-learning/
+
+Use of Feature Vectors -> https://brilliant.org/wiki/feature-vector/
 
 
 ### Open in Colab
 
-[![Open Nvidia Nemo Sample In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/SpeechRecognition/Voice%20to%20Speech.ipynb)
+[![Open Simple Vector DB In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/SimpleVectorDB/simple_vectordb.ipynb)
 
 ### Made using 
 [![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
