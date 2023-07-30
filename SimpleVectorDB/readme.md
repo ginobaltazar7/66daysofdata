@@ -12,7 +12,7 @@ Vectors are important in data science and machine learning because they allow us
 
 So-called 'feature vectors' are used widely in machine learning because of the effectiveness and practicality of representing objects in a numerical way to help with many kinds of analyses. They are good for analysis because there are many techniques for comparing feature vectors, using for example cosine similarity or Euclidean distance.
 
-### Read more 
+### Read more  
 
 An introduction -> https://machinelearningmastery.com/gentle-introduction-vectors-machine-learning/
 
@@ -27,5 +27,10 @@ Use of Feature Vectors -> https://brilliant.org/wiki/feature-vector/
 [![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 
+### Support Me
+
+If you like my work consider supporting me!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
 
 
