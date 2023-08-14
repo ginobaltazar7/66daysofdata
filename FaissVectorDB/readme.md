@@ -14,7 +14,7 @@ In the exercise, the embeddings are built using the [BERT Library](https://pypi.
 
 How Vector Databases Work -> https://newsletter.theaiedge.io/p/deep-dive-how-do-vector-databases
 
-Faiss, the open source library by the (FB Engineering team at Meta)[https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/] for efficient similarity search of dense vectors at scale -> https://faiss.ai/
+Faiss, the open source library by the [FB Engineering team at Meta](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/) for efficient similarity search of dense vectors at scale -> https://faiss.ai/
 
 ### Open in Colab
 
