@@ -16,6 +16,8 @@ How Vector Databases Work -> https://newsletter.theaiedge.io/p/deep-dive-how-do-
 
 Faiss, the open source library by the [FB Engineering team at Meta](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/) for efficient similarity search of dense vectors at scale -> https://faiss.ai/
 
+Informative 3-part series on [Youtube by Dziuban](https://www.youtube.com/watch?v=wHltI4kPKjk&ab_channel=DefaultFallback)
+
 ### Open in Colab
 
 [![Open Simple Vector DB In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/FaissVectorDB/faiss_vectordb.ipynb)
