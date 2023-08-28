@@ -2,7 +2,7 @@
 
 [Faiss](https://faiss.ai/) or Facebook AI Similarity Search was built out of FB Engineering and is a library used to build an index of dense vectors and search, at scale.
 
-The following is a sentence embedding exercise exploring the library courtesy of the folks at [Pinecone](https://www.pinecone.io/product/), a commercial provider of fully mananged vector databases.
+The following is a sentence embedding exercise exploring the library courtesy of the folks at [Pinecone](https://www.pinecone.io/product/), a commercial provider of fully managed vector databases.
 
 [Sentence embedding](https://en.wikipedia.org/wiki/Sentence_embedding) is a way to tokenize or numerically represent sentences, as vectors. Its applications in natural language include knowledge databases that could be queried against through the use of vector indexing for search.  [LangChain](https://github.com/hwchase17/langchain) is one good example of such an application - it was developed in Q4 2022 just last year as an open source project.
 
