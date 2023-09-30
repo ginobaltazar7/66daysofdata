@@ -1,6 +1,6 @@
 # 66daysofdata
 
-In support of the #66daysofdata initiative and the data science community, this repo is a collection of (almost) daily data engineering and data science code and experiments for 66 days+.  
+In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+.  
 
 *"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology. (Ken Jee)"*
 
@@ -33,7 +33,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - Develop a NLP Model in Python & Deploy It with Flask, by Susan Li, https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776
 
-- Kubeflow at LinkedIn by Abin Shahab & Tengfei Mu, LinkedIn. Kubeflow is an open source Kubernetes-native platform for orchestrating and deploying machine learning workloads. https://www.youtube.com/watch?v=kExwqij11cg
+- Kubeflow at LinkedIn by Abin Shahab & Tengfei Mu, LinkedIn. Kubeflow is an open source Kubernetes-native platform for orchestrating and deploying machine learning workloads. https://www.youtube.com/watch?v=kExwqij11cg  Also is Docker Swarm dead (vs Kubernetes)? https://www.reddit.com/r/kubernetes/comments/xc7kzz/docker_swarm_vs_kubernetes_a_detailed_comparison/
 
 - Quantitative Economics using Python, Stachurski, John. https://lectures.quantecon.org/py/
 
@@ -73,7 +73,7 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 
 - Via Chandoo, he used to have a lot of free stuff but now he also does paid training  https://chandoo.org/wp/trendlines-and-forecasting-in-excel-part-3/
 
-- Non-online resource I recomment is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel" http://shop.oreilly.com/product/9780596100735.do
+- Non-online resource I recommend is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel" http://shop.oreilly.com/product/9780596100735.do
 
 
 ### Databases
