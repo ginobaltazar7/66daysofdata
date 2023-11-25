@@ -22,7 +22,7 @@ Inserting Pinecone Vectors using this [helpful readme](https://docs.pinecone.io/
 
 Useful video [Pinecone vs FAISS](https://www.youtube.com/watch?v=wHltI4kPKjk) vs pgvector - will cover pgvector in a future exercise.
 
-[Pinecone's popularity compared to other vector DB's](https://db-engines.com/en/ranking/vector+dbms)
+[Pinecone's popularity compared to other vector DB's](https://db-engines.com/en/ranking/vector+dbms) and how it stacks [against conventional DB's](https://db-engines.com/en/ranking/vector+dbms/all)
 
 ### Open in Colab
 
