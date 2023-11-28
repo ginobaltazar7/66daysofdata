@@ -32,6 +32,11 @@ Bookmarking a short list of resources and books on the art of data modeling, whi
 [The Data Warehouse ETL toolkit : practical techniques for extracting, cleaning, conforming, and delivering data](https://www.amazon.com/Data-Warehouse-ETL-Toolkit-Techniques-Extracting/dp/0764567578) by Ralph Kimball and Joe Caserta
 
 
+### Useful Tools
+[DBDiagram](https://dbdiagram.io/home) free, simple tool to draw ER diagrams by just writing code.
+
+[Holistics](https://docs.holistics.io/docs/modeling/) BI platform that aims to enable self-service data.
+
 
 ### Support Me
 
