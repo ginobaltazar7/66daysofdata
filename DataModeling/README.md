@@ -35,7 +35,7 @@ Bookmarking a short list of resources and books on the art of data modeling, whi
 ### Useful Tools
 [DBDiagram](https://dbdiagram.io/home) free, simple tool to draw ER diagrams by just writing code.
 
-[Holistics](https://docs.holistics.io/docs/modeling/) BI platform that aims to enable self-service data.
+[Holistics](https://docs.holistics.io/docs/modeling/) BI platform that aims to enable self-service data.  And a [short demo](https://www.youtube.com/watch?v=CCGPheSCVYQ) how to create A Google Cloud MySQL Database and a Dash in Holistics 
 
 
 ### Support Me
