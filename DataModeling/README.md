@@ -2,10 +2,14 @@
 
 Bookmarking a short list of resources and books on the art of data modeling, which to me simply is, the art of representing real world data into bits and bytes. 
 
+However in developing software, data modeling is perhaps one of the most important aspects, as it can have a significant effect in how software is eventually built.
+
 *"Torture the Data and it will Confess to Everything" (Ronald Coase, Economics Nobel Laureate)*
 
 
 ### Contemporary
+
+[Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppman, starting on page 57 "Data Models and Query Languages"
 
 [Building a Scalable Data Warehouse with Data Vault 2.0](https://www.amazon.com/Building-Scalable-Data-Warehouse-Vault/dp/0128025107/r) by Daniel Linstedt and Michael Olschimke
 
