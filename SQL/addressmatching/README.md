@@ -1,6 +1,6 @@
 # Address Matching
 
-March 2024
+April 2024
 
 The goal of the demo below is to match two lists of street addresses using similarity algorithms.
 
@@ -23,7 +23,7 @@ The Sorensen measures the ratio of twice the number of shared elements (intersec
 
 ### Open in Colab
 
-[![Open 'Address Matching' In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/SQL/address_matching/blob/master/Address_Matching.ipynb)
+[![Open 'Address Matching' In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/SQL/addressmatching/Address_Matching.ipynb)
 
 
 ### Made using 
@@ -38,14 +38,21 @@ This requires uploading address files into Postgres tables and using built-in SQ
 The SQL example uses the `phraseto_tsquery -> tsquery` Postgres text search operator which first converts text to a tsquery then compares and results in a boolean.
 
 [tsquery and tsvector in postgres](https://medium.com/geekculture/comprehend-tsvector-and-tsquery-in-postgres-for-full-text-search-1fd4323409fc)
+
 [Full Text Search in Postgres/MySQL](https://dbconvert.com/blog/mysql-and-postgresql-for-advanced-full-text-search/)
 
-Postgres can be instantiated on a localhost via Docker. 
+[Postgres Text Search Docs](https://www.postgresql.org/docs/16/functions-textsearch.html)
+
+Postgres can be instantiated on a localhost via Docker, or cloud like for example AWS EC2.
 
 [Easy Postgres setup on Mac](https://youtu.be/0CfL_JBB83A?si=AsXUctuwWMcjZnqt)
+
 [Docker Hub for Postgres](https://hub.docker.com/_/postgres/)
+
 [How to Use Postgres Docker](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
-[](https://www.postgresql.org/docs/16/functions-textsearch.html)
+
+[Postgres in AWS EC2](https://dev.to/amedd/dockerize-a-postgresql-database-in-an-aws-ec2-instance-5dej)
+
 
 ### Resources
 [Doc on Distance Lib Python](https://pypi.org/project/Distance/)
