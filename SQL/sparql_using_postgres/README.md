@@ -6,7 +6,7 @@ The demo below attempts a PostgreSQL wrapper called `rdf_fdw` to access RDF trip
 
 There are detailed setup instructions here -> [rdf_fdw readme](https://github.com/jimjonesbr/rdf_fdw)
 
-The demo requires a running PostgreSQL instance and which in this demo's case was facilitate using Docker and a postgreSQLv16 image.
+The demo requires a running PostgreSQL instance and which in this demo's case was facilitated using Docker and a postgreSQLv16 image.
 
 There is an additional note that in order for `rdf_fdw` to convert the data retrieved from the RDF triplestore into a format that can be interpreted by PostgreSQL, it must first load all the retrieved data into memory. Thus, if large volumes of data are done with a single query, PostgreSQL will need sufficient memory, or otherwise retrieve the data in chunks by using `rdf_fdw_clone_table` or an alternative customized script.
 
@@ -43,4 +43,4 @@ Postgres can be instantiated on a localhost via Docker, or cloud like for exampl
 ### Resources
 [Ontology Tools for Data Scientists and Machine Learning](https://medium.com/@iamshowkath/ontologies-a-key-tool-for-data-scientists-and-machine-learning-engineers-8a6c6c9d4d76)
 
-[(Protégé](https://protege.stanford.edu/) is a popular and powerful tool for creating and managing ontologies. It provides a user-friendly interface to define classes, properties, and relationships within the ontology.
+[Protégé](https://protege.stanford.edu/) is a popular and powerful tool for creating and managing ontologies. It provides a user-friendly interface to define classes, properties, and relationships within the ontology.
