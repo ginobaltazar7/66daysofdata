@@ -1,4 +1,4 @@
-DROP table if exists street_address_listing_normalized;;
+DROP table if exists street_address_listing_normalized;
 CREATE table street_address_listing_normalized as
 select 
     pk,
@@ -20,7 +20,7 @@ from (
         from street_address_listing
 ) as subquery;
 
-DROP table if exists testerAddress_normalized;;
+DROP table if exists testerAddress_normalized;
 CREATE table testerAddress_normalized as
 select 
     pk,

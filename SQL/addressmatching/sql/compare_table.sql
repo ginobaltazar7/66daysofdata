@@ -4,7 +4,7 @@ select
 	full_address,
     council_district_no,
 	phraseto_tsquery(
-		‘simple’,
+		'simple',
 		concat_ws(
 			', ', 
 			lower(councilperson_name), 

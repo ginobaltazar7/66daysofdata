@@ -31,7 +31,7 @@ COPY street_address_listing (
     councilperson_name,
     jurisdiction
 )
-FROM ‘/tmp/street_address_listing.csv’ WITH (format csv, header true);
+FROM '/tmp/street_address_listing.csv' WITH (format csv, header true);
 
 DROP TABLE IF EXISTS testerAddress;
 CREATE TABLE testerAddress (
@@ -54,5 +54,7 @@ COPY testerAddress (
 )
 FROM '/tmp/testerAddress.csv' WITH (format csv, header true);
 
--- requires copying from localhost to docker container
--- e.g. docker cp /Users/GB/Documents/Jobs/address_matching/data/File2.csv e239c87d0466:/tmp/. 
+-- requires first copying from localhost to docker container, then running the files above in psql
+-- e.g. docker cp <source> <dockerimage:folder/target>
+-- e.g. docker cp /Users/GB/Documents/DE/66daysofdata/SQL/addressmatching/data/testerAddress.csv e239c87d0466:/tmp/. 
+-- e.g. docker cp /Users/GB/Documents/DE/66daysofdata/SQL/addressmatching/data/street_address_listing.csv e239c87d0466:/tmp/.
