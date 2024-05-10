@@ -4,7 +4,7 @@ May 2024
 
 The demo below attempts a PostgreSQL wrapper called `rdf_fdw` to access RDF triplestores via SparQL endpoints.
 
-There are detailed instructions here -> [rdf_fdw readme](https://github.com/jimjonesbr/rdf_fdw)
+There are detailed setup instructions here -> [rdf_fdw readme](https://github.com/jimjonesbr/rdf_fdw)
 
 The demo requires a running PostgreSQL instance and which in this demo's case was facilitate using Docker and a postgreSQLv16 image.
 
@@ -17,7 +17,7 @@ Coming Soon!
 
 ### Why This Matters
 
-Ontologies play a vital role in organizing and structuring data; they provide a standardized way to represent `knowledge` and gives a learning machine additional context to understand and process information. 
+Ontologies can play a vital role in organizing and structuring data; they provide a standardized way to represent `knowledge` and gives learning machines additional contexts to understand and process information. 
 
 These representations and relationships can be transformed into meaningful features for training models such as those for LLMs.
 
@@ -42,4 +42,5 @@ Postgres can be instantiated on a localhost via Docker, or cloud like for exampl
 
 ### Resources
 [Ontology Tools for Data Scientists and Machine Learning](https://medium.com/@iamshowkath/ontologies-a-key-tool-for-data-scientists-and-machine-learning-engineers-8a6c6c9d4d76)
+
 [(Protégé](https://protege.stanford.edu/) is a popular and powerful tool for creating and managing ontologies. It provides a user-friendly interface to define classes, properties, and relationships within the ontology.
