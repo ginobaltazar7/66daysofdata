@@ -55,6 +55,8 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Fireside Chat with Aparna Ramani & Yann LeCun at May 2022 Data@Scale, touches on self-supervised machine learning and emerging DS trends](https://fb.watch/dvgGdS02Yk/) along with [Ms. Ramani's keynote](https://fb.watch/dvh5W0EQHV/)
 
+- [Zach Wilson's Data Engineer Newsletter - great for DE reskilling or upleveling along with DE bootcamps](https://blog.dataengineer.io/)
+
 ### Resources
 
 - [Awesome Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering)
