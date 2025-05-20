@@ -16,7 +16,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/generative_ai_intro)
 
-- [Resource](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/resources) 
+- [Resources](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/resources) 
 
 ## Older Useful Reads ##
 
