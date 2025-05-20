@@ -14,9 +14,9 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD)
 
-- [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/generative_ai_intro)
+- [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/generative_ai_intro/README.md)
 
-- [Resources](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/resources) 
+- [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) 
 
 ## Older Useful Reads ##
 
