@@ -18,4 +18,8 @@ Series of short focused reads and projects to help advance GenAI knowledge.
 
 - [RAG Roadmap](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/RAG_roadmap.md)
 
+### Disclaimer
+
+The content presented in this course is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
+
 
