@@ -1,6 +1,6 @@
 # 66daysofdata
 
-In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+.  
+In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+. Just updated 2025H1 - GenAI resources*   
 
 *"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology. (Ken Jee)"*
 
@@ -10,8 +10,15 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
 
+## GenAI Resources
 
-## Useful Reads to Share ##
+- [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD)
+
+- [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/generative_ai_intro)
+
+- [Resource](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/resources) 
+
+## Older Useful Reads ##
 
 - [Gallery of interesting Jupyter Notebooks by Lorena Barba](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
@@ -92,6 +99,10 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 If you like this list consider supporting me!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
+
+### Credit
+
+Nod to [Aishwarya Nr](https://github.com/aishwaryanr/) for GenAI links. 
 
 ## License
 
