@@ -1,6 +1,6 @@
 # 66daysofdata
 
-In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+. Just updated 2025H1 - GenAI resources*   
+In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+. Just updated 2025H1 - GenAI*   
 
 *"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology. (Ken Jee)"*
 
@@ -9,7 +9,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
 
-## GenAI Resources
+## GenAI
 
 - [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD)
 
