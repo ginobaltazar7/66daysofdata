@@ -2,15 +2,16 @@
 
 This is a short intro to touch on the foundations, architectural basics, application and concepts of Applied LLM. It covers fundamentals, tooling, deployment and future trends/challenges.
 
-### Key Takeaways
+### Expected Outcomes
 
-- Understanding the practical fundamentals of LLMs, including its capabilities and limitations
-- Hands-on experience with end-to-end execution of LLM use cases
-- Learning best practices for exploring and evaluating the usefulness of LLMs in specific scenarios
-- Proficiency in integrating and comprehending new updates in LLMs, effectively fitting each piece into the larger puzzle and understanding its relevance.
+- To Understand the practical fundamentals of LLMs, including its capabilities and limitations.
+- To Gain Hands-on experience with end-to-end execution of LLM use cases.
+- To Learn best practices for exploring and evaluating the usefulness of LLMs in specific scenarios.
+- To Gain Proficiency in integrating and comprehending new updates in LLMs.
 
-###
-- [Week 1 Part 1Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week1_part1_foundations.md)
+### Content
+
+- [Week 1 Part 1 Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week1_part1_foundations.md)
 - [Week 1 Part 2 Domain Task Adaptation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week1_part2_domain_task_adaptation.md)
 - [Week 2 Prompting](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week2_prompting.md)
 - [Week 3 Finetuning LLMs](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week3_finetuning_llms.md)
@@ -24,8 +25,10 @@ This is a short intro to touch on the foundations, architectural basics, applica
 
 ### Disclaimer
 
-Adopted from Original Author [Aishwarya Nr](https://www.linkedin.com/in/areganti/), offered independently, for **free** and is not affiliated with any employer. The content presented in this course is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
+Adopted from Original Author [Aishwarya Nr](https://www.linkedin.com/in/areganti/), offered independently, for **free** and is not affiliated with any employer. 
 
-### License
+The content presented in this course is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
 
-[MIT License]
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)

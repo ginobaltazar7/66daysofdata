@@ -180,4 +180,8 @@ Happy coding!!
 
 The content presented in this course is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
 
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 

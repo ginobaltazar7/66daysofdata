@@ -6,7 +6,6 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 
 [Discord](https://discord.com/invite/VXSUJYJ)
-[Twitter](https://twitter.com/KenJee_DS/status/1299734773456203777)
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
 
@@ -102,7 +101,7 @@ If you like this list consider supporting me!
 
 ### Credit
 
-Nod to [Aishwarya Nr](https://github.com/aishwaryanr/) for GenAI links. 
+Nod to [Aishwarya Nr](https://github.com/aishwaryanr/) for GenAI links and respective authors as cited above.
 
 ## License
 
