@@ -13,11 +13,19 @@ Source: [https://medium.com/womenintechnology/ai-c3412c5aa0ac](https://medium.co
 
 The terms mentioned in the source above have likely come up in conversations about ChatGPT. The visual representation offers a broad overview of how they fit into a hierarchy. AI is a comprehensive domain, where LLMs constitute a specific subdomain, and ChatGPT exemplifies an LLM in this context.
 
-In summary, **Artificial Intelligence (AI)** is a branch of computer science that involves creating machines with human-like thinking and behavior. **Machine Learning(ML)**, a subfield of AI, allows computers to learn patterns from data and make predictions without explicit programming. **Neural Networks (NNs)**, a subset of ML, mimic the human brain's structure and are crucial in deep learning algorithms. Deep Learning (DL), a subset of NN, is effective for complex problem-solving, as seen in image recognition and language translation technologies. **Generative AI (GenAI)**, a subset of DL, can create diverse content based on learned patterns. **Large Language Models (LLMs)**, a form of GenAI, specialize in generating human-like text by learning from extensive textual data. 
+**Artificial Intelligence (AI)** is a branch of computer science that involves creating machines with human-like thinking and behavior. 
 
-Generative AI and Large Language Models (LLMs) have revolutionized the field of artificial intelligence, allowing machines to create diverse content such as text, images, music, audio, and videos. Unlike discriminative models that classify, generative AI models generate new content by learning patterns and relationships from human-created datasets.
+**Machine Learning(ML)**, a subfield of AI, allows computers to learn patterns from data and make predictions without explicit programming. 
 
-At the core of generative AI are foundation models which essentially refer to large AI models capable of multi-tasking, performing tasks like summarization, Q&A, and classification out-of-the-box. These models, like the popular one that everyone’s heard of-ChatGPT, can adapt to specific use cases with minimal training and generate content with minimal example data.
+**Neural Networks (NNs)**, a subset of ML, mimic the human brain's structure and are crucial in deep learning algorithms. Deep Learning (DL), a subset of NN, is effective for complex problem-solving, as seen in image recognition and language translation technologies. 
+
+**Generative AI (GenAI)**, a subset of DL, can create diverse content based on learned patterns. 
+
+**Large Language Models (LLMs)**, a form of GenAI, specialize in generating human-like text by learning from extensive textual data. 
+
+At the core of generative AI are foundation models which essentially refer to large AI models capable of multi-tasking, performing tasks like summarization, Q&A, and classification out-of-the-box. 
+
+These models, like the popular one that everyone’s heard of-ChatGPT, can adapt to specific use cases with minimal training and generate content with minimal example data.
 
 The training of generative AI often involves supervised learning, where the model is provided with human-created content and corresponding labels. By learning from this data, the model becomes proficient in generating content similar to the training set.
 
@@ -29,13 +37,15 @@ A year later, diffusion models were introduced, refining their output iterativel
 
 In 2017, Google introduced the transformer architecture, a breakthrough in natural language processing. Transformers encode each word as a token, generating an attention map that captures relationships between tokens. This attention to context enhances the model's ability to generate coherent text, exemplified by large language models like ChatGPT.
 
-The generative AI boom owes its momentum not only to larger datasets but also to diverse research advances. These approaches, including GANs, diffusion models, and transformers, showcase the breadth of methods contributing to the exciting field of generative AI.
+The generative AI boom owes its momentum not only to larger datasets but also to these diverse research advances. These approaches, including GANs, diffusion models, and transformers, showcase the breadth of methods contributing to the exciting field of generative AI.
 
 ## Enter LLMs
 
-The term "Large" in Large Language Models (LLMs) refers to the sheer scale of these models—both in terms of the size of their architecture and the vast amount of data they are trained on. The size matters because it allows them to capture more complex patterns and relationships within language. Popular LLMs like GPT-3, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that the algorithm tunes during training to make accurate predictions or generate meaningful outputs.
+The term "Large" in Large Language Models (LLMs) refers to the sheer scale of these models—both in terms of the size of their architecture and the vast amount of data they are trained on. 
 
-Now, let's break down what "Language Models" mean in this context. Language models are essentially algorithms or systems that are trained to understand and generate human-like text. They serve as a representation of how language works, learning from diverse datasets to predict what words or sequences of words are likely to come next in a given context.
+The size matters because it allows them to capture more complex patterns and relationships within language. Popular LLMs like GPT-3, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that the algorithm tunes during training to make accurate predictions or generate meaningful outputs.
+
+Language models are essentially algorithms or systems that are trained to understand and generate human-like text. They serve as a representation of how language works, learning from diverse datasets to predict what words or sequences of words are likely to come next in a given context.
 
 The "Large" aspect amplifies their capabilities. Traditional language models, especially those from the past, were smaller in scale and couldn't capture the intricacies of language as effectively. With advancements in technology and the availability of massive computing power, we've been able to build much larger models. These Large Language Models, like ChatGPT, have billions of parameters, which are essentially the variables the model uses to make sense of language.
 
@@ -65,7 +75,9 @@ LLM performance is heavily influenced by two key factors:
 - **Model Architecture:** The design and intricacy of the LLM architecture impact its ability to capture language nuances.
 - **Dataset:** The quality and diversity of the dataset utilized for training are crucial in shaping the model's language understanding.
 
-Training a private LLM demands substantial computational resources and expertise. The duration of the process can range from several days to weeks, contingent on the model's complexity and dataset size. Commonly, cloud-based solutions and high-performance GPUs are employed to expedite the training process, making it more efficient. Overall, LLM training is a meticulous and resource-intensive undertaking that lays the groundwork for the model's language comprehension and generation capabilities.
+Training a private LLM demands substantial computational resources and expertise. The duration of the process can range from several days to weeks, contingent on the model's complexity and dataset size. Commonly, cloud-based solutions and high-performance GPUs are employed to expedite the training process, making it more efficient. 
+
+Overall, LLM training is a meticulous and resource-intensive undertaking that lays the groundwork for the model's language comprehension and generation capabilities.
 
 After the initial training, LLMs can be easily customized for various tasks using relatively small sets of supervised data, a procedure referred to as fine-tuning.
 
@@ -75,7 +87,7 @@ There are three prevalent learning models:
 2. **Few-shot learning:** By providing a small number of pertinent training examples, the performance of the base model significantly improves in a specific domain.
 3. **Domain Adaptation:** This extends from few-shot learning, where practitioners train a base model to adjust its parameters using additional data relevant to the particular application or domain.
 
-We will be diving deep into each of these methods during the course.
+This intro will later do a deeper dive into each of these methods.
 
 ## LLM Real World Use Cases
 
@@ -104,7 +116,7 @@ LLMs are already being leveraged in various applications showcasing their versat
     - LLMs contribute to educational tools by providing natural language interfaces for learning platforms. They can assist students in generating summaries, answering questions, and engaging in interactive learning conversations. This facilitates personalized and efficient learning experiences.
     - **Real World Applications**: E-learning platforms, educational chatbots, interactive learning applications
 
-Summary of popular LLM use-cases
+**Summary of popular LLM use-cases**
 
 | No. | Use case | Description |
 | --- | --- | --- |
@@ -116,7 +128,9 @@ Summary of popular LLM use-cases
 | 6 | Information Retrieval | Retrieve relevant information from large datasets or documents. |
 | 7 | Educational Tools | Tutor, provide explanations, and generate learning materials. |
 
-Understanding the utilization of generative AI models, especially LLMs, can also be gleaned from the extensive array of startups operating in this domain. An [infographic](https://www.sequoiacap.com/article/generative-ai-act-two/) presented by Sequoia Capital highlighted these companies across diverse sectors, illustrating the versatile applications and the significant presence of numerous players in the generative AI space.
+Understanding the utilization of generative AI models, especially LLMs, can also be gleaned from the extensive array of startups operating in this domain. 
+
+An [infographic](https://www.sequoiacap.com/article/generative-ai-act-two/) presented by Sequoia Capital highlighted these companies across diverse sectors, illustrating the versatile applications and the significant presence of numerous players in the generative AI space.
 
 
 Source: [https://markovate.com/blog/applications-and-use-cases-of-llm/](https://markovate.com/blog/applications-and-use-cases-of-llm/)
