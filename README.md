@@ -59,7 +59,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 ### Resources
 
-- [Awesome Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering)
+- [Awesome Data Engineering TIL](https://github.com/ginobaltazar7/awesome-data-engineering-til)
 
 ### Data Sets
 
@@ -89,7 +89,7 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 
 ### Support Me
 
-If you like my work consider supporting me!
+If you like this list consider supporting me!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
 
