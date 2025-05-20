@@ -1,4 +1,6 @@
-## More Resources
+# More Resources
+
+Series of short focused reads and projects to help advance GenAI knowledge. 
 
 - [60 AI Projects](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/60_ai_projects.md)
 
