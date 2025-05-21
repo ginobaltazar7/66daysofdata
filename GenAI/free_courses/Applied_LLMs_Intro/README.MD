@@ -1,13 +1,13 @@
 # Applied LLMs 10 Week Intro
 
-This is a short intro to touch on the foundations, architectural basics, application and concepts of Applied LLM. It covers fundamentals, tooling, deployment and future trends/challenges.
+This is a short intro ton the foundations, architectural basics, applications and concepts of Applied LLM. It covers its fundamentals, tooling, deployment and future trends/challenges.
 
 ### Expected Outcomes
 
-- To Understand the practical fundamentals of LLMs, including its capabilities and limitations.
-- To Gain Hands-on experience with end-to-end execution of LLM use cases.
-- To Learn best practices for exploring and evaluating the usefulness of LLMs in specific scenarios.
-- To Gain Proficiency in integrating and comprehending new updates in LLMs.
+- To understand what LLM's are, its capabilities, limitations,
+- To gain some hands-on experience with selected LLM use cases.
+- How to best evaluate their utility.
+
 
 ### Content
 

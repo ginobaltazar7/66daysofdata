@@ -1,56 +1,49 @@
 # [Week 1, Part 1] Applied LLM Foundations and Real World Use Cases
 
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-We start off by exploring the historical context and fundamental concepts of artificial intelligence (AI), machine learning (ML), neural networks (NNs), and generative AI (GenAI). We then examine the core attributes of LLMs, focusing on their scale, extensive training on diverse datasets, and the role of model parameters. Then we go over the types of challenges associated with using LLMs.
+The field of LLM's or Large Language Models, conceptually at its core, is not really new. We'll first define what it is, examine its history, then its core attributes, touching on what innovations enabled its scale, and what firms are being created to help deploy and serve applications. Finally, we'll touch on the types of challenges associated with using LLMs.
 
-In the next section, we explore practical applications of LLMs across various domains, emphasizing their versatility in areas like content generation, language translation, text summarization, question answering etc. The section concludes with an analysis of the challenges encountered in deploying LLMs, covering essential aspects such as scalability, latency, monitoring etc.
+## What are LLM's
+
+Source (author: Chiara Caprasi): [https://medium.com/womenintechnology/ai-c3412c5aa0ac](https://medium.com/womenintechnology/ai-c3412c5aa0ac)
+
+As we can see in Ms. Caprasi's diagram, Large Language Models is one subfield among many in AI. Moreover while ChatGPT is often associated with LLMs, it really is a component if not example of the latter.  
+
+**Artificial Intelligence (AI)** is a branch of Computer Science that involves creating human-like thinking and behaving machines, made popular in cinematic films like the Terminator or Star Wars.
+
+**Machine Learning(ML)**, a subfield of AI, enables machines to learn patterns from data and make predictions based on the structure of data and mathematical algebraic computations.
+
+**Neural Networks (NNs)**, a subset of ML, mimic human brain signaling across so called network layers that transform those signals so they become more meaningful. 
+
+**Deep Learning (DL)**, a subset of NN, adds more layers to specific depths so the attenuation of signal transformation is enhanced. DL's are thus used for more complex use cases such as image recognition and language translation. One of my favorite DL applications is Google Translate on mobile and use it extensively in countries I travel to. 
+
+**Generative AI (GenAI)**, a subset of DL, as its name suggests, generates artificial content - whether text, photos, images, sound - based on learned patterns.  The applications of GenAI are increasing, penetrating the worlds of media, social, finance and even now the [public sector](https://dl.acm.org/doi/10.1145/3700140).
+
+**Large Language Models (LLMs)**, is an application of GenAI to generate human-like text and language by learning from extensive textual data inputs. The term "Large" refers to the sheer scale of these models — both in terms of the size of their architecture and the vast amount of textual data input  the models are trained on.
 
 ## History and Background
 
-Source: [https://medium.com/womenintechnology/ai-c3412c5aa0ac](https://medium.com/womenintechnology/ai-c3412c5aa0ac)
+Generative AI is not a brand new concept. One notable early example of early generative AI is the [Markov chain](https://www.csail.mit.edu/news/explained-generative-ai), a statistical model introduced by Russian mathematician Andrey Markov in 1906. Markov models were initially used for tasks like next-word prediction, but its simplicity was limited by its ability to look only so far back to generate accurate text.
 
-The terms mentioned in the source above have likely come up in conversations about ChatGPT. The visual representation offers a broad overview of how they fit into a hierarchy. AI is a comprehensive domain, where LLMs constitute a specific subdomain, and ChatGPT exemplifies an LLM in this context.
+Over the years since then, more powerful architectures and Big Data emerged thanks to the advancement of the Internet, social and mobile. 
 
-**Artificial Intelligence (AI)** is a branch of computer science that involves creating machines with human-like thinking and behavior. 
+In 2014, generative adversarial networks or [GANS](https://developers.google.com/machine-learning/gan/gan_structure) emerged. GANS operated on the concept of a data "generator" versus a data "discrimnator" — one generating output and the other discriminating real data from the generated output. It improved the ability to generate "fake" versus "real" data.
 
-**Machine Learning(ML)**, a subfield of AI, allows computers to learn patterns from data and make predictions without explicit programming. 
+In 2015, [diffusion models](https://www.sapien.io/blog/gans-vs-diffusion-models-a-comparative-analysis) operating on the concept of "denoising" generated output iteratively as training proceeded. This innovation, as seen in Stable Diffusion, contributed to the creation of realistic-looking images.
 
-**Neural Networks (NNs)**, a subset of ML, mimic the human brain's structure and are crucial in deep learning algorithms. Deep Learning (DL), a subset of NN, is effective for complex problem-solving, as seen in image recognition and language translation technologies. 
+In 2017, Google introduced the [Transformer architecture](https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/), a novel breakthrough that encoded each word as a token, and then generated an attention map that captured relationships between tokens. This attention to context enhances the model's ability to generate coherent text, exemplified by large language models like ChatGPT.
 
-**Generative AI (GenAI)**, a subset of DL, can create diverse content based on learned patterns. 
+The generative AI boom thus owes its momentum not only to larger datasets but also to these preceding diverse research advances.
 
-**Large Language Models (LLMs)**, a form of GenAI, specialize in generating human-like text by learning from extensive textual data. 
+## Living Large
 
-At the core of generative AI are foundation models which essentially refer to large AI models capable of multi-tasking, performing tasks like summarization, Q&A, and classification out-of-the-box. 
+Larger input datasets and architectures coupled with innovations in chipsets like GPU or software like Transformers enabled sifting of more complex patterns and relationships in languages and text. 
 
-These models, like the popular one that everyone’s heard of-ChatGPT, can adapt to specific use cases with minimal training and generate content with minimal example data.
+Popular LLMs like Meta's LLaMA, GPT-x, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that the algorithm tunes during training to make accurate predictions or generate meaningful outputs.
 
-The training of generative AI often involves supervised learning, where the model is provided with human-created content and corresponding labels. By learning from this data, the model becomes proficient in generating content similar to the training set.
-
-Generative AI is not a new concept. One notable example of early generative AI is the Markov chain, a statistical model introduced by Russian mathematician Andrey Markov in 1906. Markov models were initially used for tasks like next-word prediction, but their simplicity limited their ability to generate plausible text.
-
-The landscape has significantly changed over the years with the advent of more powerful architectures and larger datasets. In 2014, generative adversarial networks (GANs) emerged, using two models working together—one generating output and the other discriminating real data from the generated output. This approach, exemplified by models like StyleGAN, significantly improved the realism of generated content.
-
-A year later, diffusion models were introduced, refining their output iteratively to generate new data samples resembling the training dataset. This innovation, as seen in Stable Diffusion, contributed to the creation of realistic-looking images.
-
-In 2017, Google introduced the transformer architecture, a breakthrough in natural language processing. Transformers encode each word as a token, generating an attention map that captures relationships between tokens. This attention to context enhances the model's ability to generate coherent text, exemplified by large language models like ChatGPT.
-
-The generative AI boom owes its momentum not only to larger datasets but also to these diverse research advances. These approaches, including GANs, diffusion models, and transformers, showcase the breadth of methods contributing to the exciting field of generative AI.
-
-## Enter LLMs
-
-The term "Large" in Large Language Models (LLMs) refers to the sheer scale of these models—both in terms of the size of their architecture and the vast amount of data they are trained on. 
-
-The size matters because it allows them to capture more complex patterns and relationships within language. Popular LLMs like GPT-3, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that the algorithm tunes during training to make accurate predictions or generate meaningful outputs.
-
-Language models are essentially algorithms or systems that are trained to understand and generate human-like text. They serve as a representation of how language works, learning from diverse datasets to predict what words or sequences of words are likely to come next in a given context.
-
-The "Large" aspect amplifies their capabilities. Traditional language models, especially those from the past, were smaller in scale and couldn't capture the intricacies of language as effectively. With advancements in technology and the availability of massive computing power, we've been able to build much larger models. These Large Language Models, like ChatGPT, have billions of parameters, which are essentially the variables the model uses to make sense of language.
-
-Take a look at the infographic from “Information is beautiful” below to see how many parameters recent LLMs have. You can view the live visualization [here](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)
-
+The number of models is increasing as a result of the various takes on those knobs and switches. Take a look at the infographic from “Information is beautiful” below to see how many parameters recent LLMs have. You can view the live visualization [here](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)
 
 Source: [https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/) 
 
@@ -59,7 +52,7 @@ Source: [https://informationisbeautiful.net/visualizations/the-rise-of-generativ
 Training LLMs is a complex process that involves instructing the model to comprehend and produce human-like text. Here's a simplified breakdown of how LLM training works:
 
 1. **Providing Input Text:**
-    - LLMs are initially exposed to extensive text data, encompassing various sources such as books, articles, and websites.
+    - LLMs are initially exposed to extensive and clean text data, encompassing various sources such as books, articles, and websites.
     - The model's task during training is to predict the next word or token in a sequence based on the context provided. It learns patterns and relationships within the text data.
 2. **Optimizing Model Weights:**
     - The model comprises different weights associated with its parameters, reflecting the significance of various features.
@@ -70,18 +63,12 @@ Training LLMs is a complex process that involves instructing the model to compre
 
 The training process may vary depending on the specific type of LLM being developed, such as those optimized for continuous text or dialogue.
 
-LLM performance is heavily influenced by two key factors:
+LLM training performance, which often takes several days or weeks, is heavily influenced by two key factors:
 
 - **Model Architecture:** The design and intricacy of the LLM architecture impact its ability to capture language nuances.
-- **Dataset:** The quality and diversity of the dataset utilized for training are crucial in shaping the model's language understanding.
+- **Dataset:** The quality, cleanliness and diversity of the dataset utilized for training are crucial in shaping the model's language understanding.
 
-Training a private LLM demands substantial computational resources and expertise. The duration of the process can range from several days to weeks, contingent on the model's complexity and dataset size. Commonly, cloud-based solutions and high-performance GPUs are employed to expedite the training process, making it more efficient. 
-
-Overall, LLM training is a meticulous and resource-intensive undertaking that lays the groundwork for the model's language comprehension and generation capabilities.
-
-After the initial training, LLMs can be easily customized for various tasks using relatively small sets of supervised data, a procedure referred to as fine-tuning.
-
-There are three prevalent learning models:
+There are three common learning models:
 
 1. **Zero-shot learning:** The base LLMs can handle a wide range of requests without explicit training, often by using prompts, though the accuracy of responses may vary.
 2. **Few-shot learning:** By providing a small number of pertinent training examples, the performance of the base model significantly improves in a specific domain.
@@ -105,7 +92,7 @@ LLMs are already being leveraged in various applications showcasing their versat
     - **Real World Applications**: Research tools, news aggregators, content curation platforms
 4. **Question Answering and Chatbots:**
     - LLMs can be employed for question answering tasks, where they comprehend the context of a question and generate relevant and accurate responses. They enable these systems to engage in more natural and context-aware conversations, understanding user queries and providing relevant responses.
-    - **Real World Applications***:* Customer support systems, chatbots, virtual assistants, educational platforms
+    - **Real World Applications***:* Customer support systems in both private and public sectors, chatbots, virtual assistants, educational platforms.
 5. **Content Moderation:**
     - LLMs can be utilized for content moderation by analyzing text and identifying potentially inappropriate or harmful content. This helps in maintaining a safe and respectful online environment by automatically flagging or filtering out content that violates guidelines, ensuring user safety.
     - **Real World Applications**: Social media platforms, online forums, community management tools.
@@ -130,7 +117,7 @@ LLMs are already being leveraged in various applications showcasing their versat
 
 Understanding the utilization of generative AI models, especially LLMs, can also be gleaned from the extensive array of startups operating in this domain. 
 
-An [infographic](https://www.sequoiacap.com/article/generative-ai-act-two/) presented by Sequoia Capital highlighted these companies across diverse sectors, illustrating the versatile applications and the significant presence of numerous players in the generative AI space.
+An [infographic](https://www.sequoiacap.com/article/generative-ai-act-two/) in an article "GenAI:Act Two" Sequoia Capital highlighted these companies across diverse sectors, illustrating the versatile applications and the significant presence of numerous players in the generative AI space.
 
 
 Source: [https://markovate.com/blog/applications-and-use-cases-of-llm/](https://markovate.com/blog/applications-and-use-cases-of-llm/)
@@ -181,7 +168,7 @@ Although LLMs have undoubtedly revolutionized various applications, numerous cha
 9. **Regulatory Compliance:** Adhering to regulatory requirements and compliance standards, especially in industries with strict data protection and privacy regulations.
 10. **Dynamic Content Handling:** Managing the generation of text in dynamic environments where content and user interactions change frequently.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. [https://www.nvidia.com/en-us/glossary/generative-ai/](https://www.nvidia.com/en-us/glossary/generative-ai/)
 2. [https://markovate.com/blog/applications-and-use-cases-of-llm/](https://markovate.com/blog/applications-and-use-cases-of-llm/)
@@ -191,7 +178,7 @@ Although LLMs have undoubtedly revolutionized various applications, numerous cha
 6. [https://www.youtube.com/watch?v=MyFrMFab6bo](https://www.youtube.com/watch?v=MyFrMFab6bo)
 7. [https://www.youtube.com/watch?v=cEyHsMzbZBs](https://www.youtube.com/watch?v=cEyHsMzbZBs)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://dl.acm.org/doi/abs/10.1145/3605943](https://dl.acm.org/doi/abs/10.1145/3605943)
 2. [https://www.sciencedirect.com/science/article/pii/S2950162823000176](https://www.sciencedirect.com/science/article/pii/S2950162823000176)
