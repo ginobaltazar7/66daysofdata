@@ -21,7 +21,7 @@ As we can see in Ms. Caprasi's diagram, Large Language Models is one subfield am
 
 **Generative AI (GenAI)**, a subset of DL, as its name suggests, generates artificial content - whether text, photos, images, sound - based on learned patterns.  The applications of GenAI are increasing, penetrating the worlds of media, social, finance and even now the [public sector](https://dl.acm.org/doi/10.1145/3700140).
 
-**Large Language Models (LLMs)**, is an application of GenAI to generate human-like text and language by learning from extensive textual data inputs. The term "Large" refers to the sheer scale of these models — both in terms of the size of their architecture and the vast amount of textual data input  the models are trained on.
+**Large Language Models (LLMs)**, is an application of GenAI to generate human-like text and language by learning from extensive textual data inputs. The term "Large" refers to the sheer scale of these models — both in terms of the size of their architectures and the vast amount of textual data input  the models are trained on.
 
 ## History and Background
 
@@ -29,11 +29,11 @@ Generative AI is not a brand new concept. One notable early example of early gen
 
 Over the years since then, more powerful architectures and Big Data emerged thanks to the advancement of the Internet, social and mobile. 
 
-In 2014, generative adversarial networks or [GANS](https://developers.google.com/machine-learning/gan/gan_structure) emerged. GANS operated on the concept of a data "generator" versus a data "discrimnator" — one generating output and the other discriminating real data from the generated output. It improved the ability to generate "fake" versus "real" data.
+In 2014, generative adversarial networks or [GANS](https://developers.google.com/machine-learning/gan/gan_structure) emerged. GANS operated on the concept of a data "generator" versus a data "discriminator" — one generating output and the other discriminating real data from the generated output. It improved the ability to generate "fake" versus "real" data.
 
 In 2015, [diffusion models](https://www.sapien.io/blog/gans-vs-diffusion-models-a-comparative-analysis) operating on the concept of "denoising" generated output iteratively as training proceeded. This innovation, as seen in Stable Diffusion, contributed to the creation of realistic-looking images.
 
-In 2017, Google introduced the [Transformer architecture](https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/), a novel breakthrough that encoded each word as a token, and then generated an attention map that captured relationships between tokens. This attention to context enhances the model's ability to generate coherent text, exemplified by large language models like ChatGPT.
+In 2017, Google introduced the [Transformer architecture](https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/), a novel breakthrough that encoded each word as a token, and then generated an attention map that captured relationships between tokens. This attention to context enhanced the ability to generate coherent text, as if a machine is being spoken to, and as exemplified later by OpenAI's release of ChatGPT.
 
 The generative AI boom thus owes its momentum not only to larger datasets but also to these preceding diverse research advances.
 
@@ -41,7 +41,7 @@ The generative AI boom thus owes its momentum not only to larger datasets but al
 
 Larger input datasets and architectures coupled with innovations in chipsets like GPU or software like Transformers enabled sifting of more complex patterns and relationships in languages and text. 
 
-Popular LLMs like Meta's LLaMA, GPT-x, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that the algorithm tunes during training to make accurate predictions or generate meaningful outputs.
+Popular LLMs like Meta's LLaMA, GPT-x, Gemini, Claude etc. have thousands of billion model parameters. In the context of machine learning, model parameters are like the knobs and switches that algorithms tune during training to make accurate predictions or generate meaningful outputs.
 
 The number of models is increasing as a result of the various takes on those knobs and switches. Take a look at the infographic from “Information is beautiful” below to see how many parameters recent LLMs have. You can view the live visualization [here](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)
 
@@ -74,7 +74,7 @@ There are three common learning models:
 2. **Few-shot learning:** By providing a small number of pertinent training examples, the performance of the base model significantly improves in a specific domain.
 3. **Domain Adaptation:** This extends from few-shot learning, where practitioners train a base model to adjust its parameters using additional data relevant to the particular application or domain.
 
-This intro will later do a deeper dive into each of these methods.
+Later in the intro will do a deeper dive into each of these methods.
 
 ## LLM Real World Use Cases
 
