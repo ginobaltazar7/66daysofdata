@@ -74,7 +74,7 @@ There are three common learning models:
 2. **Few-shot learning:** By providing a small number of pertinent training examples, the performance of the base model significantly improves in a specific domain.
 3. **Domain Adaptation:** This extends from few-shot learning, where practitioners train a base model to adjust its parameters using additional data relevant to the particular application or domain.
 
-Later in the intro will do a deeper dive into each of these methods.
+Later in the intro will do a deeper dive into each of these methods. 
 
 ## LLM Real World Use Cases
 
