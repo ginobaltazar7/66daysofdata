@@ -1,9 +1,9 @@
-# [Week 1, Part 1] Applied LLM Foundations and Real World Use Cases
+# [Part 1] Applied LLM Foundations, Use Cases and History
 
 
 ## TL;DR
 
-The field of LLM's or Large Language Models, conceptually at its core, is not really new. We'll first define what it is, examine its history, then its core attributes, touching on what innovations enabled its scale, and what firms are being created to help deploy and serve applications. Finally, we'll touch on the types of challenges associated with using LLMs.
+The field of LLM's or Large Language Models, conceptually at its core, is not really new. We'll first define what it is, examine its history, then its core attributes, touching on what innovations enabled its scale, and what firms are being created to help deploy and serve applications. Finally, we'll touch on the types of challenges are associated with using LLMs.
 
 ## What are LLM's
 
