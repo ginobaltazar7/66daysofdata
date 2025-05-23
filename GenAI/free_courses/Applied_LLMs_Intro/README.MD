@@ -11,8 +11,8 @@ This is a short intro on the foundations, architectural basics, applications and
 
 ### Content
 
-- [Part 1.1 Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week1_part1_foundations.md)
-- [Part 1.2 Domain Task Adaptation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week1_part2_domain_task_adaptation.md)
+- [Part 1.1 Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part1_foundations.md)
+- [Part 1.2 Domain Task Adaptation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part2_domain_task_adaptation.md)
 - [Part 1.3 Microsoft Free Video Intro to GenAI and LLMs](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/introduction-to-generative-ai-and-llms-generative-ai-for-beginners)
 - [Part 2 Prompting](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week2_prompting.md)
 - [Part 3 Finetuning LLMs](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/week3_finetuning_llms.md)
