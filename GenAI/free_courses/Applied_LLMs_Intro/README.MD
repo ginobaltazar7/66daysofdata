@@ -26,7 +26,7 @@ This is a short intro on the foundations, architectural basics, applications and
 
 ### Disclaimer
 
-Inspired by the work of original authors Aishwarya Nr, Carlotta Catellucio, et al, this intro is offered independently, is for **free** and is not affiliated with any employer. 
+Inspired by the work of original authors Aishwarya Nr, Carlotta Catellucio, Ed Donner, et al, this intro is offered independently, is for **free** and is not affiliated with any employer. 
 
 The content presented in this intro is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
 
