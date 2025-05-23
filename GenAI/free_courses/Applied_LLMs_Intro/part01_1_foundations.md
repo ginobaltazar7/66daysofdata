@@ -1,4 +1,4 @@
-# [Part 1] Applied LLM Foundations, Use Cases and History
+# [Part 1.1] Applied LLM Foundations, Use Cases and History
 
 
 ## TL;DR
@@ -6,6 +6,8 @@
 The field of LLM's or Large Language Models, conceptually at its core, is not really new. We'll first define what it is, examine its history, then its core attributes, touching on what innovations enabled its scale, and what firms are being created to help deploy and serve applications. Finally, we'll touch on the types of challenges are associated with using LLMs.
 
 ### Try in Colab
+
+Open a Simple LLM in Colab using a library from [ollama](https://ollama.com/).
 
 [![Open A Simple LLM In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/ipynb/Part_1_Getting_started_with_LLM.ipynb)
 

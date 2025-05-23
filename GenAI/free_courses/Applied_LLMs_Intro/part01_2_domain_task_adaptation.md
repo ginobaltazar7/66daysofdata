@@ -1,14 +1,19 @@
-# [Week 1, Part 2] Domain and Task Adaptation Methods
+# [Part 1.2] Domain and Task Adaptation Methods
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section, we delve into the limitations of general AI models in specialized domains, underscoring the significance of domain-adapted LLMs. We explore the advantages of these models, including depth, precision, improved user experiences, and addressing privacy concerns.
+While general AI models such as ChatGPT demonstrate impressive text generation abilities across various subjects, they may lack the depth and nuanced understanding required for specific domains. Consequently, some specialization is needed - this process is called 'domain and task adaptation'.
 
-We introduce three types of domain adaptation methods: Domain-Specific Pre-Training, Domain-Specific Fine-Tuning, and Retrieval Augmented Generation (RAG). Each method is outlined, providing details on types, training durations, and quick summaries. We then explain each of these methods in further detail with real-world examples. In the end, we provide an overview of when RAG should be used as opposed to model updating methods.
+## Specialization
 
-## Using LLMs Effectively
+When not correctly adapted, models can be prone to generating inaccurate or contextually inappropriate content, referred to as hallucinations. For instance, in healthcare, specific terms like "electronic health record interoperability" or "patient-centered medical home" hold significant importance, but a generic language model may struggle to fully comprehend their relevance due to a lack of specific training on healthcare data. 
 
-While general AI models such as ChatGPT demonstrate impressive text generation abilities across various subjects, they may lack the depth and nuanced understanding required for specific domains. Additionally, these models are more prone to generating inaccurate or contextually inappropriate content, referred to as hallucinations. For instance, in healthcare, specific terms like "electronic health record interoperability" or "patient-centered medical home" hold significant importance, but a generic language model may struggle to fully comprehend their relevance due to a lack of specific training on healthcare data. This is where task-specific and domain-specific LLMs play a crucial role. These models need to possess specialized knowledge of industry-specific terminology and practices to ensure accurate interpretation of domain-specific concepts. Throughout the remainder of this course, we will refer to these specialized LLMs as **domain-specific LLM**s, a commonly used term for such models.
+This is where task-specific and domain-specific LLMs play a crucial role. These models need to possess specialized knowledge of industry-specific terminology and practices to ensure accurate interpretation of domain-specific concepts. 
+
+Three types of domain adaptation methods will be introduced and covered in this section: 
+- Domain-Specific Pre-Training, 
+- Domain-Specific Fine-Tuning, and 
+- Retrieval Augmented Generation (RAG). 
 
 Here are some benefits of using domain-specific LLMs:
 
@@ -18,15 +23,7 @@ Here are some benefits of using domain-specific LLMs:
 4. **Improved Efficiency and Productivity**: Businesses can benefit from the improved efficiency of domain-specific LLMs. By automating tasks, generating content aligned with industry-specific terminology, and streamlining operations, these models free up human resources for higher-level tasks, ultimately boosting productivity.
 5. **Addressing Privacy Concerns**: In industries dealing with sensitive data, such as healthcare, using general LLMs may pose privacy challenges. Domain-specific LLMs can provide a closed framework, ensuring the protection of confidential data and adherence to privacy agreements.
 
-If you recall from the [previous section](https://www.notion.so/Week-1-Applied-LLM-Foundations-369ae7cf630d467cbfeedd3b9b3bfc46?pvs=21), we had multiple ways to use LLMs in specific use cases, namely
-
-1. **Zero-shot learning**
-2. **Few-shot learning**
-3. **Domain Adaptation**
-
-Zero-shot learning and few-shot learning involve instructing the general model either through examples or by prompting it with specific questions of interest. Another concept introduced is domain adaptation, which will be the primary focus in this section. More details about the first two methods will be explored when we delve into the topic of prompting.
-
-## Types of Domain Adaptation Methods
+## Domain Adaptation Methods
 
 There are several methods to incorporate domain-specific knowledge into LLMs, each with its own advantages and limitations. Here are three classes of approaches:
 
@@ -51,10 +48,9 @@ There are several methods to incorporate domain-specific knowledge into LLMs, ea
 
 ## **Domain-Specific Pre-Training**
 
-
 Source [https://www.analyticsvidhya.com/blog/2023/08/domain-specific-llms/](https://www.analyticsvidhya.com/blog/2023/08/domain-specific-llms/)
 
-Domain-specific pre-training involves training large language models on extensive datasets that specifically represent the language and characteristics of a particular domain or field. This process aims to enhance the model's understanding and performance within a defined subject area.  Let’s understand domain specific pretraining through the example of [BloombergGPT,](https://arxiv.org/pdf/2303.17564.pdf) a large language model for finance. 
+Domain-specific pre-training involves training large language models on extensive datasets that specifically **represent the language and characteristics of a specific domain** or field. This process aims to enhance the model's understanding and performance within a defined subject area.  Let’s understand domain specific pretraining through the example of [BloombergGPT,](https://arxiv.org/pdf/2303.17564.pdf) a large language model for finance. 
 
 BloombergGPT is a 50 billion parameter language model designed to excel in various tasks within the financial industry. While general models are versatile and perform well across diverse tasks, they may not outperform domain-specific models in specialized areas. At Bloomberg, where a significant majority of applications are within the financial domain, there is a need for a model that excels in financial tasks while maintaining competitive performance on general benchmarks. BloombergGPT can perform the following tasks:
 
@@ -70,7 +66,7 @@ The model architecture is based on guidelines from previous research efforts, co
 
 ## **Domain-Specific Fine-Tuning**
 
-Domain-specific fine-tuning is the process of refining a pre-existing language model for a particular task or within a specific domain to enhance its performance and tailor it to the unique context of that domain. This method involves taking an LLM that has undergone pre-training on a diverse dataset encompassing various language use cases and subsequently fine-tuning it on a narrower dataset specifically related to a particular domain or task. 
+Domain-specific fine-tuning is the process of **refining a pre-existing language model** for a particular task or within a specific domain to enhance its performance and tailor it to the unique context of that domain. This method involves taking an LLM that has undergone pre-training on a diverse dataset encompassing various language use cases and subsequently fine-tuning it on a narrower dataset specifically related to a particular domain or task. 
 
 💡Note that the previous method, i.e., domain-specific pre-training involves training a language model exclusively on data from a specific domain, creating a specialized model for that domain. On the other hand, domain-specific fine-tuning takes a pre-trained general model and further trains it on domain-specific data, adapting it for tasks within that domain without starting from scratch. Pre-training is domain-exclusive from the beginning, while fine-tuning adapts a more versatile model to a specific domain.
 
@@ -87,12 +83,15 @@ Domain-specific fine-tuning offers several advantages:
 - It saves time and computational resources compared to training a model from scratch, leveraging the knowledge gained during pre-training.
 - The model can adapt to the specific requirements and nuances of the target domain, leading to improved performance on domain-specific tasks.
 
-A popular example for domain-specific fine-tuning is the ChatDoctor LLM which is a specialized language model fine-tuned on Meta-AI's large language model meta-AI (LLaMA) using a dataset of 100,000 patient-doctor dialogues from an online medical consultation platform. The model undergoes fine-tuning on real-world patient interactions, significantly improving its understanding of patient needs and providing more accurate medical advice. ChatDoctor uses real-time information from online sources like Wikipedia and curated offline medical databases, enhancing the accuracy of its responses to medical queries. The model's contributions include a methodology for fine-tuning LLMs in the medical field, a publicly shared dataset, and an autonomous ChatDoctor model capable of retrieving updated medical knowledge. Read more about ChatDoctor in the paper [here](https://arxiv.org/pdf/2303.14070.pdf).
+A popular example for domain-specific fine-tuning is the ChatDoctor LLM which is a specialized language model fine-tuned on Meta-AI's large language model meta-AI (LLaMA) using a dataset of 100,000 patient-doctor dialogues from an online medical consultation platform. The model undergoes fine-tuning on real-world patient interactions, significantly improving its understanding of patient needs and providing more accurate medical advice. 
+
+ChatDoctor uses real-time information from online sources like Wikipedia and curated offline medical databases, enhancing the accuracy of its responses to medical queries. The model's contributions include a methodology for fine-tuning LLMs in the medical field, a publicly shared dataset, and an autonomous ChatDoctor model capable of retrieving updated medical knowledge. Read more about ChatDoctor in the paper [here](https://arxiv.org/pdf/2303.14070.pdf).
 
 ## Retrieval Augmented Generation (RAG)
 
-Retrieval Augmented Generation (RAG) is an AI framework that enhances the quality of responses generated by LLMs by incorporating up-to-date and contextually relevant information from external sources during the generation process. It addresses the inconsistency and lack of domain-specific knowledge in LLMs, reducing the chances of hallucinations or incorrect responses. RAG involves two phases: retrieval, where relevant information is searched and retrieved, and content generation, where the LLM synthesizes an answer based on the retrieved information and its internal training data. This approach improves accuracy, allows source verification, and reduces the need for continuous model retraining. 
+Retrieval Augmented Generation (RAG) is an AI framework that **enhances the quality of responses** generated by LLMs by incorporating up-to-date and contextually relevant information from external sources during the generation process. It addresses the inconsistency and lack of domain-specific knowledge in LLMs, reducing the chances of hallucinations or incorrect responses. 
 
+RAG involves two phases: retrieval, where relevant information is searched and retrieved, and content generation, where the LLM synthesizes an answer based on the retrieved information and its internal training data. This approach improves accuracy, allows source verification, and reduces the need for continuous model retraining. 
 
 Source: [https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 
@@ -138,7 +137,7 @@ In contrast to earlier approaches for model updates (pre-training and fine-tunin
 - **Reducing Hallucination is Crucial:** Ground LLMs with verifiable facts and citations from an external knowledge base.
 - **Cost-Efficiency is a Priority:** Avoid extensive model training or fine-tuning; implement without the need for training.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. [https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 2. [https://www.superannotate.com/blog/llm-fine-tuning#what-is-llm-fine-tuning](https://www.superannotate.com/blog/llm-fine-tuning#what-is-llm-fine-tuning)
@@ -146,7 +145,7 @@ In contrast to earlier approaches for model updates (pre-training and fine-tunin
 4. [https://www.youtube.com/watch?v=cXPYtkosXG4](https://www.youtube.com/watch?v=cXPYtkosXG4)
 5. [https://gradientflow.substack.com/p/best-practices-in-retrieval-augmented](https://gradientflow.substack.com/p/best-practices-in-retrieval-augmented)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf](https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf)
 2. [https://arxiv.org/abs/2202.01110](https://arxiv.org/abs/2202.01110)
