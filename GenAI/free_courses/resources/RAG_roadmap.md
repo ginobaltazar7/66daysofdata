@@ -1,4 +1,4 @@
-# 3 Day RAG Roadmap: Understanding, Building and Evaluating RAG Systems 2024
+# 3 Day RAG Roadmap: Understanding, Building and Evaluating RAG Systems (2024)
 
 Retrieval Augmented Generation (RAG) has become a popular application of LLMs recently, with significant progress made in just a few months. Its popularity stems from its lightweight nature and the ease with which it can be integrated with any LLM. To help you get acquainted with RAG, we have put together a 3-day learning plan.
 
