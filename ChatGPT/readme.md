@@ -4,6 +4,8 @@ Open AI's ChatGPT based Chatbot using Python and Gradio
 
 OpenAI has trained language models that are quite impressive at understanding and generating text. This is a short demo of how OpenAI's API provides access to these models and how they can be used to solve tasks involving language processing. 
 
+Interested in learning more? [See this Intro series ->](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/Applied_LLMs_Intro)
+
 ### Open in Colab
 
 #### ChatGPT_Sample

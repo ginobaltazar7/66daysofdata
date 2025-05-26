@@ -6,6 +6,8 @@ One of the biggest problems with text is that it is messy and unstructured, and 
 
 One caveat - bag of words representation doesn’t consider the semantic relation between words. Generally the neighbor words in a sentence, context in other words, should be useful for predicting your target word.
 
+Interested in learning more about LLMs? [See this Intro series ->](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/Applied_LLMs_Intro)
+
 [More here via greyatom >> ](https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428)
 
 [Some more via python-course >> ](https://python-course.eu/machine-learning/natural-language-processing-with-python.php)

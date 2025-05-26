@@ -4,6 +4,7 @@
 
 The technique's basis comes from the tendency of AI models to perform Similarity Searches, a complex topic which I covered lightly in [Faiss Vectors](https://github.com/ginobaltazar7/66daysofdata/tree/master/FaissVectorDB). In case you missed it, here is a [link to a good starter series](https://towardsdatascience.com/similarity-search-knn-inverted-file-index-7cab80cc0e79) for those curious.
 
+Interested in learning more? [See this Intro series ->](https://github.com/ginobaltazar7/66daysofdata/tree/master/GenAI/free_courses/Applied_LLMs_Intro)
 
 ### Read more  
 
