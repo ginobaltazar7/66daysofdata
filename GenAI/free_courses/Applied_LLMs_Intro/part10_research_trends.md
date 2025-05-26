@@ -1,8 +1,10 @@
-# [Week 10] Emerging Research Trends
+# [Part 10] Emerging Research Trends
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-Within this segment of our course, we will delve into the latest research developments surrounding LLMs. Kicking off with an examination of MultiModal Large Language Models (MM-LLMs), we'll explore how this particular area is advancing swiftly. Following that, our discussion will extend to popular open-source models, focusing on their construction and contributions. Subsequently, we'll tackle the concept of agents that possess the capability to carry out tasks autonomously from inception to completion. Additionally, we'll understand the role of domain-specific models in enriching specialized knowledge across various sectors and take a closer look at groundbreaking architectures such as the Mixture of Experts and RWKV, which are set to improve the scalability and efficiency of LLMs. 
+We'll kick off with an examination of MultiModal Large Language Models (MM-LLMs), and explore how this particular area is advancing swiftly. Following that, our discussion will extend to popular open-source models, focusing on their construction and contributions. 
+
+Subsequently, we'll tackle the concept of agents that possess the capability to carry out tasks autonomously from inception to completion. Additionally, we'll understand the role of domain-specific models in enriching specialized knowledge across various sectors and take a closer look at groundbreaking architectures such as the Mixture of Experts and RWKV, which are set to improve the scalability and efficiency of LLMs. 
 
 ## Multimodal LLMs (MM-LLMs)
 

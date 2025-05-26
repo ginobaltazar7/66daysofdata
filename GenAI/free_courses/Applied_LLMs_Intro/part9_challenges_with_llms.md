@@ -1,8 +1,12 @@
-# [Week 9] Challenges with LLMs
+# [Part 9] Challenges with LLMs
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section of the course on LLM Challenges, we've identified two main areas of concern with LLMs: behavioral challenges and deployment challenges. Behavioral challenges include issues like hallucination, where LLMs generate fictitious information, and adversarial attacks, where inputs are crafted to manipulate model behavior. Deployment challenges encompass memory and scalability issues, as well as security and privacy concerns. LLMs demand significant computational resources for deployment and face risks of privacy breaches due to their ability to process vast datasets and generate text. To mitigate these challenges, we discuss various strategies such as robust defenses against adversarial attacks, efficient memory management, and privacy-preserving training algorithms.  Additionally we will go over techniques like differential privacy, model stacking, and preprocessing methods that are being employed to safeguard user privacy and ensure the reliable and ethical use of LLMs across different applications.
+Practitioners have identified two main areas of concern with LLMs: behavioral challenges and deployment challenges. Behavioral challenges include issues like hallucination, where LLMs generate fictitious information, and adversarial attacks, where inputs are crafted to manipulate model behavior. Deployment challenges encompass memory and scalability issues, as well as security and privacy concerns. 
+
+LLMs demand significant computational resources for deployment and face risks of privacy breaches due to their ability to process vast datasets and generate text. To mitigate these challenges, various strategies such as robust defenses against adversarial attacks, efficient memory management, and privacy-preserving training algorithms are discussed.  
+
+Additional techniques like differential privacy, model stacking, and preprocessing methods that are being employed to safeguard user privacy and ensure the reliable and ethical use of LLMs across different applications will also be discussed.
 
 ## Types of Challenges
 

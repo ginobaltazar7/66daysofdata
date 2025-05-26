@@ -1,14 +1,16 @@
-# [Week 2] Prompting and Prompt Engineering
+# [Part 2] Prompting and Prompt Engineering
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In the section on prompting, you will learn the basics of formulating effective prompts to guide language models in generating desired outputs. You will explore prompt engineering techniques to refine these prompts for improved performance in various applications. We'll  cover the importance of contextual understanding, leveraging training data patterns, and utilizing transfer learning. Advanced prompting methods like Chain-of-Thought and Tree-of-Thought will be introduced, highlighting their roles in enhancing reasoning capabilities. Additionally, the section will address the risks associated with prompting, such as bias and prompt hacking, and provide strategies to mitigate these risks.
+Formulating effective prompts to guide language models in generating desired outputs in LLMs is both an art and a science. This section covers prompt engineering techniques to refine prompts for improved performance in various applications. The importance of contextual understanding, leveraging training data patterns, and utilizing transfer learning will be covered. 
+
+Advanced prompting methods like Chain-of-Thought and Tree-of-Thought will be introduced, highlighting their roles in enhancing reasoning capabilities. Additionally, the section will address the risks associated with prompting, such as bias and prompt hacking, and provide strategies to mitigate these risks.
 
 ## Introduction
 
 ### Prompting
 
-In the realm of language models, "**prompting**" refers to the art and science of formulating precise instructions or queries provided to the model to generate desired outputs. It's the input—typically in the form of text—that users present to the language model to elicit specific responses. The effectiveness of a prompt lies in its ability to guide the model's understanding and generate outputs aligned with user expectations.
+In the realm of language models, "**prompting**" refers to the practice of formulating precise input, instructions or queries provided to the model to generate desired outputs. The quality of the inputs — typically in the form of text — that users present to the language model impact the quality of response outputs. The effectiveness of a prompt lies in its ability to guide the model's understanding and generate outputs aligned with user expectations.
 
 ### Prompt Engineering
 
@@ -17,8 +19,7 @@ In the realm of language models, "**prompting**" refers to the art and science o
 - Beyond crafting prompts, prompt engineering is a rich set of skills essential for interacting and developing with LLMs. It's not just about design; it's a crucial skill for understanding and exploiting LLM capabilities, ensuring safety, and introducing novel features like domain knowledge integration.
 - This proficiency is vital in aligning AI behavior with human intent. While professional prompt engineers delve into the complexities of AI, the skill isn't exclusive to specialists. Anyone refining prompts for models like ChatGPT is engaging in prompt engineering, making it accessible to users exploring language model potentials.
 
-
-                    Source: [https://zapier.com/blog/prompt-engineering/](https://zapier.com/blog/prompt-engineering/)
+Source: [https://zapier.com/blog/prompt-engineering/](https://zapier.com/blog/prompt-engineering/)
 
 ## Why Prompting?
 

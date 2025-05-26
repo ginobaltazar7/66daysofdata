@@ -1,8 +1,10 @@
-# [Week 8] Advanced Features and Deployment
+# [Part 8] Advanced Features and Deployment
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section of our content, we will delve into the complexities of deploying LLMs and managing them effectively throughout their lifecycle. We will first discuss LLMOps which involves specialized practices, techniques, and tools tailored to the operational management of LLMs in production environments. We will explore the deployment lifecycle of LLMs, examining  areas where operational efficiency is important.We will then proceed to discuss in more depth the crucial components for deployment, namely Monitoring and Observability for LLMs, as well as Security and Compliance for LLMs.
+There are a number of complexities of deploying LLMs and managing them effectively throughout their lifecycle. A practice called 'LLMOps' which involves specialized practices, techniques, and tools tailored to the operational management of LLMs in production environments will be discussed. 
+
+LLM deployment lifecycle will next be examined in the context of operational efficiency. In depth coverage of the crucial components for deployment, namely Monitoring and Observability for LLMs, as well as Security and Compliance for LLMs will also be discussed.
 
 ## LLM Application Stages
 

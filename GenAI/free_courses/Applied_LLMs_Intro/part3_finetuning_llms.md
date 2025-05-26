@@ -1,8 +1,12 @@
-# [Week 3] Fine Tuning LLMs
+# [Part 3] Fine Tuning LLMs
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section, we will go over the Fine-Tuning domain adaptation method for LLMs. Fine-tuning involves further training pre-trained models for specific tasks or domains, adapting them to new data distributions, and enhancing efficiency by leveraging pre-existing knowledge. It is crucial for tasks where generic models may not excel. Two main types of fine-tuning include unsupervised (updating models without modifying behavior) and supervised (updating models with labeled data). We emphasize on the popular supervised method-Instruction fine-tuning which augments input-output examples with explicit instructions for better generalization. We’ll dig deeper into Reinforcement Learning from Human Feedback (RLHF) which incorporates human feedback for model fine-tuning and Direct Preference Optimization (DPO) that directly optimizes models based on user preferences. We provide an overview of Parameter-Efficient Fine-Tuning (PEFT) approaches as well where selective updates are made to model parameters, addressing computational challenges, memory efficiency, and allowing versatility across modalities.
+Fine-tuning involves further training pre-trained models for specific tasks or domains, adapting them to new data distributions, and enhancing efficiency by leveraging pre-existing knowledge. It is crucial for tasks where generic models may not excel. 
+
+Two main types of fine-tuning include unsupervised (updating models without modifying behavior) and supervised (updating models with labeled data). We emphasize on the popular supervised method-Instruction fine-tuning which augments input-output examples with explicit instructions for better generalization. 
+
+We’ll dig deeper into Reinforcement Learning from Human Feedback (RLHF) which incorporates human feedback for model fine-tuning and Direct Preference Optimization (DPO) that directly optimizes models based on user preferences. We provide an overview of Parameter-Efficient Fine-Tuning (PEFT) approaches as well where selective updates are made to model parameters, addressing computational challenges, memory efficiency, and allowing versatility across modalities.
 
 ## Introduction
 

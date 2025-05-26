@@ -1,8 +1,10 @@
-# [Week 5] Tools for Building LLM Applications
+# [Part 5] Tools for Building LLM Applications
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section of our course, we explore the essential technologies and tools that facilitate the creation and enhancement of LLM applications. This includes Custom Model Adaptation for bespoke solutions, RAG-based Applications for contextually rich responses, and an extensive range of tools for input processing, development, application management, and output analysis. Through this comprehensive overview, we aim to equip you with the knowledge to leverage both proprietary and open-source models, alongside advanced development, hosting, and monitoring tools. 
+Technologies and tooling that facilitate the creation and enhancement of LLM applications are essential not only for the developer experience in organizations but also for the UX customer experience in the end products that utilize LLMs. 
+
+This includes Custom Model Adaptation for bespoke solutions, RAG-based Applications for contextually rich responses, and an extensive range of tools for input processing, development, application management, and output analysis. Through this comprehensive overview, we aim to equip you with the knowledge to leverage both proprietary and open-source models, alongside advanced development, hosting, and monitoring tools. 
 
 ## Types of LLM Applications
 
@@ -11,9 +13,6 @@ LLM applications are gaining momentum, with an increasing number of startups and
 1. **Custom Model Adaptation**: This encompasses both the development of custom models from scratch and fine-tuning pre-existing models. While custom model development demands skilled ML scientists and substantial resources, fine-tuning involves updating pre-trained models with additional data. Though fine-tuning is increasingly accessible due to open-source innovations, it still requires a sophisticated team and may result in unintended consequences. Despite its challenges, both approaches are witnessing rapid adoption across industries.
 2. **RAG based Applications**: The Retrieval Augmented Generation (RAG) method, likely the simplest and most widely adopted approach currently, utilizes a foundational model supplemented with contextual information. This involves retrieving embeddings, which represent words or phrases in a multidimensional vector space, from dedicated vector databases. Through the conversion of unstructured data into embeddings and their storage in these databases, RAG enables efficient retrieval of pertinent context during queries. This facilitates natural language comprehension and timely insights extraction without the need for extensive model customization or training. A notable advantage of RAG is its ability to bypass traditional model limitations like context window constraints. Moreover, it offers cost-effectiveness and scalability, catering to diverse developers and organizations. Furthermore, by harnessing embeddings retrieval, RAG effectively addresses concerns regarding data currency and seamlessly integrates into various applications and systems.
 
-In the previous weeks’ [content](https://www.notion.so/Week-1-Part-2-Domain-and-Task-Adaptation-Methods-6ad3284a96a241f3bd2318f4f502a1da?pvs=21), we covered the distinctions between these methodologies and discussed the criteria for selecting the most appropriate one based on your specific needs. Please review the materials for further details.
-
-In the upcoming sections, we'll explore the tool options available for both of these methodologies. There's certainly some overlap between them, which we'll address.
 
 ## Types of Tools
 
@@ -33,11 +32,6 @@ If you're remember from the previous content  how RAG operates, an application t
 4. Delivers the LLM's output back to the user.
 
 Hosting and monitoring LLM responses are integrated into the overall application architecture, as depicted in the image below. For fine-tuning applications, much of this workflow is maintained. However, there's a need for a framework and computing resources dedicated to model fine-tuning. Additionally, the application may or may not utilize external data, in which case the vector database component might not be necessary. In the figure below, each of these components and their category association is depicted. Now that we know how each of the tools are utilized, let’s dig deeper into each of these tool types.
-
-💡If you’re still unsure why each of these tool categories are required, please review the previous weeks’ content to understand how RAG and Fine-Tuning applications work
-
-
-Summary of tools available to build LLM Apps
 
 ## Input Processing Tools
 
@@ -174,8 +168,6 @@ When developing applications with LLMs, developers often navigate a complex bala
 For those looking to optimize the interaction with LLMs, No Code / Low Code prompt engineering tools are invaluable. They allow developers and prompt engineers to experiment with different prompts and compare outputs across various models without deep coding requirements. Some examples of such tools include [Humanloop](https://humanloop.com/), [PromptLayer](https://promptlayer.com/) etc.
 
 Once deployed, it's important to continually monitor an LLM application's performance in the real world. Performance monitoring tools offer insights into how well the model is performing against key metrics, identify potential degradation over time, and highlight areas for improvement. These tools can alert developers to issues that may affect user experience or operational costs, enabling timely adjustments to maintain or enhance the application's effectiveness. Some performance monitoring tools include [Honeyhive](https://www.honeyhive.ai/) and [Scale AI](https://scale.com/).
-
-The infographic below provides a summary of the tools available for each component of the LLM application process.
 
 ## Read/Watch These Resources (Optional)
 

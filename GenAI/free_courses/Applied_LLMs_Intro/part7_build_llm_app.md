@@ -1,8 +1,10 @@
-# [Week 7] Building Your Own LLM Application
+# [Part 7] Building Your Own LLM Application
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In the previous parts of the course we covered techniques such as prompting, RAG, and fine-tuning, this section will adopt a practical, hands-on approach to showcase how LLMs can be employed in application development. We'll start with basic examples and progressively incorporate more advanced functionalities like chaining, memory management, and tool integration. Additionally, we'll explore implementations of RAG and fine-tuning. Finally, by integrating these concepts, we'll learn how to construct LLM agents effectively.
+Part 7 covers will be lengthy covering practical, hands-on approaches to showcase how LLMs can be employed in application development context. 
+
+Starting off with basic examples, thenprogressively incorporate more advanced functionalities like chaining, memory management, and tool integration. Additionally, practical implementations of RAG and fine-tuning will be explored. Finally, by integrating these concepts, the now popular practice of 'agentic' apps or construction of LLM agents effectively will also be covered.
 
 ## Introduction
 

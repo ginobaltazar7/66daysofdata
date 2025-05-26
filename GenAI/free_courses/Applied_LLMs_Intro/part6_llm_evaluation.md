@@ -1,8 +1,12 @@
-# [Week 6] LLM Evaluation Techniques
+# [Part 6] LLM Evaluation Techniques
 
-## ETMI5: Explain to Me in 5
+## TL;DR
 
-In this section of the content, we dive deep into the evaluation techniques applied to LLMs, focusing on two dimensions- pipeline and model evaluations. We examine how prompts are assessed for their effectiveness, leveraging tools like Prompt Registry and Playground. Additionally, we explore the importance of evaluating the quality of retrieved documents in RAG pipelines, utilizing metrics such as Context Precision and Relevancy. We then discuss the relevance metrics used to gauge response pertinence, including Perplexity and Human Evaluation, along with specialized RAG-specific metrics like Faithfulness and Answer Relevance. Additionally, we emphasize the significance of alignment metrics in ensuring LLMs adhere to human standards, covering dimensions such as Truthfulness and Safety. Lastly, we highlight the role of task-specific benchmarks like GLUE and SQuAD in assessing LLM performance across diverse real-world applications.
+Next up is a deep dive in evaluation techniques applied to LLMs, focusing on two dimensions- pipeline and model evaluations, examining how prompts are assessed for their effectiveness, leveraging tools like Prompt Registry and Playground, evaluating the quality of retrieved documents in RAG pipelines, and utilizing metrics such as Context Precision and Relevancy. 
+
+Relevance metrics used to gauge response pertinence, including Perplexity and Human Evaluation, are next discussed along with specialized RAG-specific metrics like Faithfulness and Answer Relevance. Significance of alignment metrics in ensuring LLMs adhere to human standards, covering dimensions such as Truthfulness and Safety will also be covered. 
+
+And lastly, the role of task-specific benchmarks like GLUE and SQuAD are discussed in assessing LLM performance across diverse real-world applications.
 
 ## Evaluating Large Language Models (Dimensions)
 
@@ -38,9 +42,11 @@ More recently there have also been methods to optimize prompts in an automatic m
 
 ### A2. Evaluating Retrieval Pipeline
 
-In RAG use-cases, solely assessing the end outcome doesn't capture the complete picture. Essentially, the LLM responds to queries based on the context provided. It's crucial to evaluate intermediate results, including the quality of retrieved documents. If the term RAG is unfamiliar to you, please refer to the Week 4 content explaining how RAG operates. Throughout this discussion, we'll refer to the top-k retrieved documents as "context" for the LLM, which requires evaluation. Below are some typical metrics to evaluate the quality of RAG context.
+In RAG use-cases, solely assessing the end outcome doesn't capture the complete picture. Essentially, the LLM responds to queries based on the context provided. It's crucial to evaluate intermediate results, including the quality of retrieved documents. 
 
-The below mentioned metrics are sourced from [RAGas](https://docs.ragas.io/en/stable/concepts/metrics/faithfulness.html) an open-source library for RAG pipeline evaluations
+Throughout this discussion, we'll refer to the top-k retrieved documents as "context" for the LLM, which requires evaluation. Below are some typical metrics to evaluate the quality of RAG context.
+
+Source: [RAGas](https://docs.ragas.io/en/stable/concepts/metrics/faithfulness.html) an open-source library for RAG pipeline evaluations
 
 1. **Context Precision (From RAGas [documentation](https://docs.ragas.io/en/stable/concepts/metrics/context_precision.html)):** 
 
