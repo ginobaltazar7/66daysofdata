@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-Retrieval Augmented Generation or (RAG) in the context of AI is a framework that enhances the capabilities of Large Language Models by integrating real-time, contextually relevant information from external sources during the **response generation process**. 
+First introduced in a [paper by Meta](https://arxiv.org/pdf/2005.11401.pdf), Retrieval Augmented Generation or (RAG) in the context of AI is a framework that enhances the capabilities of Large Language Models by integrating real-time, contextually relevant information from external sources during the **response generation process**. 
 
 RAGs are deployed because it improves accuracy, allows source verification, and reduces the need for continuous model retraining. It addresses the limitations of LLMs, such as inconsistency and lack of domain-specific knowledge, hence reducing the risk of generating incorrect or hallucinated responses.
 
@@ -28,13 +28,15 @@ Source: [https://www.deeplearning.ai/short-courses/langchain-for-llm-application
 
 ## History
 
-RAG, or Retrieval-Augmented Generation, made its debut in [this](https://arxiv.org/pdf/2005.11401.pdf) paper by Meta.  The idea came about in response to the limitations observed in large pre-trained language models regarding their ability to access and manipulate knowledge effectively. 
+The idea for RAG came about in response to the limitations observed in large pre-trained language models by [Meta researchers](https://arxiv.org/pdf/2005.11401.pdf) regarding their ability to access and manipulate knowledge effectively. 
 
 Source: [https://arxiv.org/pdf/2005.11401.pdf](https://arxiv.org/pdf/2005.11401.pdf)
 
-While big language models were good at remembering facts and performing specific tasks, they struggled when it came to precisely using and manipulating that knowledge. This became evident in tasks heavy on knowledge, where other specialized models outperformed them. The authors identified challenges in existing models, such as difficulty explaining decisions and keeping up with real-world changes. Before RAG, there were promising results with hybrid models that mixed both parametric and non-parametric memories. Examples like REALM and ORQA combined masked language models with a retriever, showing positive outcomes in this direction.
+While big language models were good at remembering facts and performing specific tasks, they struggled when it came to precisely using and manipulating that knowledge. This became evident in tasks heavy on knowledge, where other specialized models outperformed them. 
 
-Then, along came RAG, a game-changer in the form of a flexible fine-tuning method for retrieval-augmented generation. RAG combined pre-trained parametric memory (like a seq2seq model) with non-parametric memory from a dense vector index of Wikipedia, accessed through a pre-trained neural retriever like Dense Passage Retriever (DPR). 
+The authors identified challenges in existing models, such as difficulty explaining decisions and keeping up with real-world changes. Before RAG, there were promising results with hybrid models that mixed both parametric and non-parametric memories. Examples like REALM and ORQA combined masked language models with a retriever, showing positive outcomes in this direction.
+
+Then, along came RAG, a **game-changer** in the form of a flexible fine-tuning method for retrieval-augmented generation. RAG combined pre-trained parametric memory (like a seq2seq model) with non-parametric memory from a dense vector index of Wikipedia, accessed through a pre-trained neural retriever like Dense Passage Retriever (DPR). 
 
 RAG models aimed to enhance pre-trained, parametric-memory generation models by combining them with non-parametric memory through fine-tuning. The seq2seq model in RAG used latent documents retrieved by the neural retriever, creating a model trained end-to-end. Training involved fine-tuning on any seq2seq task, learning both the generator and retriever. Latent documents were then handled using a top-K approximation, either per output or per token.
 
@@ -117,12 +119,12 @@ Source: [https://arxiv.org/pdf/2212.10496.pdf](https://arxiv.org/pdf/2212.10496.
 
 The strategy here aims for smaller chunk retrieval for improved search quality while incorporating surrounding context for reasoning by the Language Model. Two options can explored:
 
-1.  Sentence Window Retrieval: Embedding each sentence in a document separately to achieve high accuracy in the cosine distance search between the query and the context. After retrieving the most relevant single sentence, a context window is extended by including a specified number of sentences before and after the retrieved sentence. This extended context is then sent to the LLM for reasoning upon the provided query. The goal is to enhance the LLM's understanding of the context surrounding the retrieved sentence, enabling more informed responses.
+**Sentence Window Retrieval**: Embedding each sentence in a document separately to achieve high accuracy in the cosine distance search between the query and the context. After retrieving the most relevant single sentence, a context window is extended by including a specified number of sentences before and after the retrieved sentence. This extended context is then sent to the LLM for reasoning upon the provided query. The goal is to enhance the LLM's understanding of the context surrounding the retrieved sentence, enabling more informed responses.
 
 
 Source: [https://medium.com/@shivansh.kaushik/advanced-text-retrieval-with-elasticsearch-llamaindex-sentence-window-retrieval-cb5ea720aa44](https://medium.com/@shivansh.kaushik/advanced-text-retrieval-with-elasticsearch-llamaindex-sentence-window-retrieval-cb5ea720aa44)
 
-1. Auto-Merging Retriever:  In this approach, documents are initially split into smaller child chunks, each referring to a larger parent chunk. During retrieval, smaller chunks are fetched first. If, among the top retrieved chunks, more than a specified number are linked to the same parent node (larger chunk), the context fed to the LLM is replaced by this parent node. This process can be likened to automatically merging several retrieved chunks into a larger parent chunk, hence the name "auto-merging retriever." The method aims to capture both granularity and context, contributing to more comprehensive and coherent responses from the LLM.
+**Auto-Merging Retriever**:  In this approach, documents are initially split into smaller child chunks, each referring to a larger parent chunk. During retrieval, smaller chunks are fetched first. If, among the top retrieved chunks, more than a specified number are linked to the same parent node (larger chunk), the context fed to the LLM is replaced by this parent node. This process can be likened to automatically merging several retrieved chunks into a larger parent chunk, hence the name "auto-merging retriever." The method aims to capture both granularity and context, contributing to more comprehensive and coherent responses from the LLM.
 
 
 Source: [https://twitter.com/clusteredbytes](https://twitter.com/clusteredbytes)
@@ -146,9 +148,9 @@ Query transformation methods enhance retrieval by breaking down complex queries 
 
 ### **Query Transformations**
 
-1. **Query Expansion***:* Query expansion decomposes the input into sub-questions, each of which is a more narrow retrieval challenge. For example, a question about physics can be stepped-back into a question (and LLM-generated answer) about the physical principles behind the user query. 
+1. **Query Expansion**: Query expansion decomposes the input into sub-questions, each of which is a more narrow retrieval challenge. For example, a question about physics can be stepped-back into a question (and LLM-generated answer) about the physical principles behind the user query. 
 2. **Query Re-writing**: Addressing poorly framed or worded user queries, the [Rewrite-Retrieve-Read](https://arxiv.org/pdf/2305.14283.pdf?ref=blog.langchain.dev) approach involves rephrasing questions to enhance retrieval effectiveness. The method is explained in detail in the paper.
-3. Query Compression: In scenarios where a user question follows a broader chat conversation, the full conversational context may be necessary to answer the question. Query compression is utilized to condense chat history into a final question for retrieval.
+3. **Query Compression**: In scenarios where a user question follows a broader chat conversation, the full conversational context may be necessary to answer the question. Query compression is utilized to condense chat history into a final question for retrieval.
 
 ### **Query Routing**
 
@@ -174,14 +176,14 @@ This approach involves the fine-tuning the LLM models within our RAG pipeline.
 2. **Ranker Fine-Tuning:** Use a cross-encoder for reranking retrieved results, especially if there's a lack of trust in the base Encoder.
 3. **RA-DIT Technique:** Use a technique like RA-DIT to tune both the LLM and the Retriever on triplets of query, context, and answer.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. Building Production Ready RAG Applications: [https://www.youtube.com/watch?v=TRjq7t2Ms5I](https://www.youtube.com/watch?v=TRjq7t2Ms5I)
 2. Amazon article on RAG- [https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html)
 3. Huggingface tools for RAG- [https://huggingface.co/docs/transformers/model_doc/rag](https://huggingface.co/docs/transformers/model_doc/rag)
 4. 12 RAG Pain Points and Proposed Solutions- [https://towardsdatascience.com/12-rag-pain-points-and-proposed-solutions-43709939a28c](https://towardsdatascience.com/12-rag-pain-points-and-proposed-solutions-43709939a28c)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2312.10997.pdf)
 

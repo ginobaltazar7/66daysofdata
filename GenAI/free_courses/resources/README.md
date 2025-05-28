@@ -20,7 +20,7 @@ Series of short focused reads and projects to help advance GenAI knowledge.
 
 ### Disclaimer
 
-The content presented in this course is intended for educational purposes only and does not reflect the views or policies of any associated organizations.
+Inspired by the work of original authors Aishwarya Reganti, Carlotta Catellucio, Ed Donner, et al, this intro is offered independently and for educational purposes only, is for **free**, is not affiliated with any employer and does not reflect the views or policies of any associated organizations.
 
 ## License
 

@@ -169,7 +169,7 @@ For those looking to optimize the interaction with LLMs, No Code / Low Code prom
 
 Once deployed, it's important to continually monitor an LLM application's performance in the real world. Performance monitoring tools offer insights into how well the model is performing against key metrics, identify potential degradation over time, and highlight areas for improvement. These tools can alert developers to issues that may affect user experience or operational costs, enabling timely adjustments to maintain or enhance the application's effectiveness. Some performance monitoring tools include [Honeyhive](https://www.honeyhive.ai/) and [Scale AI](https://scale.com/).
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. [https://www.secopsolution.com/blog/top-10-llm-tools-in-2024](https://www.secopsolution.com/blog/top-10-llm-tools-in-2024)
 2. [https://www.sequoiacap.com/article/llm-stack-perspective/](https://www.sequoiacap.com/article/llm-stack-perspective/)

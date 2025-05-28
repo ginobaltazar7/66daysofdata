@@ -263,14 +263,14 @@ RWKV's architecture makes it suitable for a wide range of applications, from pur
 
 In summary, RWKV represents an exciting development in AI research, combining RNNs' sequential processing advantages with the contextual awareness and efficiency of transformers. Its design addresses key challenges in long sequence modeling, offering a promising tool for advancing NLP and related fields.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. LLM Agents: [https://www.promptingguide.ai/research/llm-agents](https://www.promptingguide.ai/research/llm-agents)
 2. LLM Powered Autonomous Agents: [https://lilianweng.github.io/posts/2023-06-23-agent/](https://lilianweng.github.io/posts/2023-06-23-agent/)
 3. Emerging Trends in LLM Architecture- [https://medium.com/@bijit211987/emerging-trends-in-llm-architecture-a8897d9d987b](https://medium.com/@bijit211987/emerging-trends-in-llm-architecture-a8897d9d987b)
 4. Four LLM trends since ChatGPT and their implications for AI builders: [https://towardsdatascience.com/four-llm-trends-since-chatgpt-and-their-implications-for-ai-builders-a140329fc0d2](https://towardsdatascience.com/four-llm-trends-since-chatgpt-and-their-implications-for-ai-builders-a140329fc0d2)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://arxiv.org/abs/2401.13601](https://arxiv.org/abs/2401.13601)
 2. [https://arxiv.org/abs/2312.00752](https://arxiv.org/abs/2312.00752)

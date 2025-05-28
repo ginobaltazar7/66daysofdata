@@ -142,15 +142,14 @@ Parameter-Efficient Fine-Tuning (PEFT) addresses the resource-intensive nature o
 
 In summary, PEFT offers a practical and efficient solution for fine-tuning large language models, addressing computational and memory challenges while maintaining performance on downstream tasks.
 
-
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. [https://www.superannotate.com/blog/llm-fine-tuning](https://www.superannotate.com/blog/llm-fine-tuning)
 2. [https://www.deeplearning.ai/short-courses/finetuning-large-language-models/](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
 3. [https://www.youtube.com/watch?v=eC6Hd1hFvos](https://www.youtube.com/watch?v=eC6Hd1hFvos)
 4. [https://www.labellerr.com/blog/comprehensive-guide-for-fine-tuning-of-llms/](https://www.labellerr.com/blog/comprehensive-guide-for-fine-tuning-of-llms/)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://arxiv.org/abs/2303.15647](https://arxiv.org/abs/2303.15647)
 2. [https://arxiv.org/abs/2109.10686](https://arxiv.org/abs/2109.10686)

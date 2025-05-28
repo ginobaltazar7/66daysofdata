@@ -219,12 +219,12 @@ To mitigate PII leakage in LLMs, several strategies can be employed:
 3. **PII Scrubbing**: This involves filtering datasets to eliminate PII from text, often leveraging Named Entity Recognition (NER) to tag PII. However, PII scrubbing methods may face challenges in preserving dataset utility and accurately removing all PII.
 4. **Fine-Tuning Considerations**: During fine-tuning on task-specific data, it's crucial to ensure that the data doesn't contain sensitive information to prevent privacy leaks. While fine-tuning may help the LM "forget" some memorized data from pretraining, it can still introduce privacy risks if the task-specific data contains PII.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. The Unspoken Challenges of Large Language Models - [https://deeperinsights.com/ai-blog/the-unspoken-challenges-of-large-language-models](https://deeperinsights.com/ai-blog/the-unspoken-challenges-of-large-language-models)
 2. 15 Challenges With Large Language Models (LLMs)- [https://www.predinfer.com/blog/15-challenges-with-large-language-models-llms/](https://www.predinfer.com/blog/15-challenges-with-large-language-models-llms/)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://arxiv.org/abs/2307.10169](https://arxiv.org/abs/2307.10169)
 2. [https://www.techrxiv.org/doi/full/10.36227/techrxiv.23589741.v1](https://www.techrxiv.org/doi/full/10.36227/techrxiv.23589741.v1)

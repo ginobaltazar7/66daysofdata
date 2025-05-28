@@ -228,7 +228,7 @@ Below are some considerations to bear in mind to guarantee adherence to complian
 - **Familiarize with GDPR and EU AI Act**: Gain a comprehensive understanding of regulations like the GDPR in the EU, which governs data protection and privacy, and stay updated on the progress and requirements of the proposed EU AI Act, particularly concerning AI systems.
 - **International Data Protection Laws**: For global operations, be aware of and comply with data protection laws in other jurisdictions, ensuring LLM deployments meet all applicable international standards.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. LLM Monitoring and Observability — A Summary of Techniques and Approaches for Responsible AI -[https://towardsdatascience.com/llm-monitoring-and-observability-c28121e75c2f](https://towardsdatascience.com/llm-monitoring-and-observability-c28121e75c2f)
 2. LLM Observability- [https://www.tasq.ai/glossary/llm-observability/](https://www.tasq.ai/glossary/llm-observability/)

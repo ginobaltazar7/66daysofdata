@@ -85,7 +85,7 @@ Prompting techniques constitute a rapidly evolving area of research, with resear
 
 
 
-### A. Step**-by-Step Modular Decomposition**
+### A. Step-by-Step Modular Decomposition**
 
 These methods involve breaking down complex problems into smaller, manageable steps, facilitating a structured approach to problem-solving. These methods guide the LLM through a sequence of intermediate steps, allowing it to focus on solving one step at a time rather than tackling the entire problem in a single step. This approach enhances the reasoning abilities of LLMs and is particularly useful for tasks requiring multi-step thinking.
 
@@ -159,7 +159,9 @@ Source: [Zhou et al., (2022)](https://arxiv.org/abs/2211.01910)
 
 1. **Chain of Verification (CoVe)**
 
-The Chain-of-Verification (CoVe) method  addresses the challenge of hallucination in large language models by introducing a systematic verification process. It begins with the model drafting an initial response to a user query, potentially containing inaccuracies. CoVe then plans and poses independent verification questions, aiming to fact-check the initial response without bias. The model answers these questions, and based on the verification outcomes, generates a final response, incorporating corrections and improvements identified through the verification process. CoVe ensures unbiased verification, leading to enhanced factual accuracy in the final response, and contributes to improved overall model performance by mitigating the generation of inaccurate information.
+The Chain-of-Verification (CoVe) method  addresses the challenge of hallucination in large language models by introducing a systematic verification process. It begins with the model drafting an initial response to a user query, potentially containing inaccuracies. 
+
+CoVe then plans and poses independent verification questions, aiming to fact-check the initial response without bias. The model answers these questions, and based on the verification outcomes, generates a final response, incorporating corrections and improvements identified through the verification process. CoVe ensures unbiased verification, leading to enhanced factual accuracy in the final response, and contributes to improved overall model performance by mitigating the generation of inaccurate information.
 
 
 Source: [Dhuliawala et al.2023](https://arxiv.org/abs/2309.11495)
@@ -273,14 +275,14 @@ Here is a collection of well-known tools for prompt engineering. While some func
     - *Features:* Test suite for LLM prompts, perform NLP tasks in a few lines of code, handle out-of-bounds predictions, output provided as Python objects for easy parsing, support for custom examples and samples, run inference on models from the Huggingface Hub.
     - *Objective:* Aims to facilitate prompt testing for LLMs, simplify NLP tasks, and optimize prompts to reduce OpenAI token costs.
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
 2. [https://aman.ai/primers/ai/prompt-engineering/](https://aman.ai/primers/ai/prompt-engineering/)
 3. [https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 4. [https://learnprompting.org/courses](https://learnprompting.org/courses)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://arxiv.org/abs/2304.05970](https://arxiv.org/abs/2304.05970)
 2. [https://arxiv.org/abs/2309.11495](https://arxiv.org/abs/2309.11495)

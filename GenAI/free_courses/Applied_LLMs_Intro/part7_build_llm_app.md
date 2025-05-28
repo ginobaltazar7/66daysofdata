@@ -135,7 +135,6 @@ In frameworks like LangChain, integrating these external tools is streamlined th
 2. [**Documentation/Code**]Tools in LlamaIndex ([link](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html))
 3. [**Video**] Building Custom Tools and Agents with LangChain by Sam Witteveen ([link](https://www.youtube.com/watch?v=biS8G8x8DdA))
 
----
 
 ## **6. LLMs Making Decisions: Agents**
 
@@ -188,9 +187,8 @@ Various platforms offer fine-tuning capabilities, but it's important to note tha
 4. [**Video**] LLM Fine Tuning Crash Course: 1 Hour End-to-End Guide by AI Anytime ([link](https://www.youtube.com/watch?v=mrKuDK9dGlg))
 5. [**Article**] How to Fine-Tune an LLM series by Weights and Biases ([link](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2))
 
----
 
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. LangChain How to and Guides by Sam Witteveen ([link](https://www.youtube.com/watch?v=J_0qvRt4LNk&list=PL8motc6AQftk1Bs42EW45kwYbyJ4jOdiZ))
 2. LangChain Crash Course For Beginners | LangChain Tutorial by codebasics ([link](https://www.youtube.com/watch?v=nAmC7SoVLd8))

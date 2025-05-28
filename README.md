@@ -17,13 +17,21 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) 
 
-## Older Useful Reads ##
+## Selected Other Useful Resources ##
+
+- [Guided Code Generation with LLMs: A Multi-Agent Framework for Complex Code Tasks by Amr Almorsi, et al](https://arxiv.org/pdf/2501.06625)
+
+- [Chain-of-Verification Reduces Hallucination in Large Language Models by Shehzaad Dhuliawala ,et al](https://arxiv.org/abs/2309.11495)
+
+- [FACTIFY: A Multi-Modal Fact Verification Dataset by Ashwarya Reganti, et al](https://ceur-ws.org/Vol-3199/paper18.pdf)
+
+- [Become an LLM Engineer in 8 weeks by Ed Donner](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/)
 
 - [Gallery of interesting Jupyter Notebooks by Lorena Barba](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
 - [From Python to Numpy by Inria researcher Nicolas P. Rougier](https://www.labri.fr/perso/nrougier/from-python-to-numpy/#id7)
 
-- [Vectorize your Conditional Loops in Python by Tirthajyokti Sarkar](https://towardsdatascience.com/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-9484ff9c622e)
+- [Vectorize your Conditional Loops in Python by Tirthajyokti Sarkar, regularly used by Data Scientists to speed up data transformations in code](https://towardsdatascience.com/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-9484ff9c622e)
 
 - [Combinatorial Optimization in Python by Google Developers](https://developers.google.com/optimization/introduction/python)
 
@@ -63,6 +71,8 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Zach Wilson's Data Engineer Newsletter - great for DE reskilling or upleveling along with DE bootcamps](https://blog.dataengineer.io/)
 
+- [Non-native vs Native Graph Technology](https://neo4j.com/blog/native-vs-non-native-graph-technology/)
+
 ### Resources
 
 - [Awesome Data Engineering TIL](https://github.com/ginobaltazar7/awesome-data-engineering-til)
@@ -89,10 +99,6 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 - [Non-online resource I recommend is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel"](http://shop.oreilly.com/product/9780596100735.do)
 
 
-### Databases
-
-- [Non-native vs Native Graph Technology](https://neo4j.com/blog/native-vs-non-native-graph-technology/)
-
 ### Support Me
 
 If you like this list consider supporting me!
@@ -101,7 +107,7 @@ If you like this list consider supporting me!
 
 ### Credit
 
-Nod to [Aishwarya Nr](https://github.com/aishwaryanr/) for GenAI links and respective authors as cited above.
+Nod to respective authors above for their respective works as indicated above.
 
 ## License
 

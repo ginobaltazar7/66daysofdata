@@ -200,14 +200,13 @@ Below, we outline some popular examples.
 
 The [Hugging Face OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) features an array of datasets and tasks used to assess foundational models and chatbots
 
-
-## Read/Watch These Resources (Optional)
+## Read or Watch More
 
 1. LLM Evaluation by Klu.ai: [https://klu.ai/glossary/llm-evaluation](https://klu.ai/glossary/llm-evaluation)
 2. Microsoft LLM Evaluation Leaderboard: [https://llm-eval.github.io/](https://llm-eval.github.io/)
 3. Evaluating and Debugging Generative AI Models Using Weights and Biases course: [https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/](https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/)
 
-## Read These Papers (Optional)
+## Read More (Scientific papers)
 
 1. [https://arxiv.org/abs/2310.19736](https://arxiv.org/abs/2310.19736)
 2. [https://arxiv.org/abs/2401.05561](https://arxiv.org/abs/2401.05561)
