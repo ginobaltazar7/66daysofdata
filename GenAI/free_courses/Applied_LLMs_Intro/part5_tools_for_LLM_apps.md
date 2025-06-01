@@ -4,7 +4,7 @@
 
 Technologies and tooling that facilitate the creation and enhancement of LLM applications are essential not only for the developer experience in organizations but also for the UX customer experience in the end products that utilize LLMs. 
 
-This includes Custom Model Adaptation for bespoke solutions, RAG-based Applications for contextually rich responses, and an extensive range of tools for input processing, development, application management, and output analysis. Through this comprehensive overview, we aim to equip you with the knowledge to leverage both proprietary and open-source models, alongside advanced development, hosting, and monitoring tools. 
+This includes Custom Model Adaptation for bespoke solutions, RAG-based Applications for contextually rich responses, and an extensive range of tools for input processing, development, application management, and output analysis. 
 
 ## Types of LLM Applications
 
@@ -19,10 +19,10 @@ LLM applications are rapidly expanding, with companies adopting them in three ma
 
 We can broadly categorize tools into four major groups:
 
-1. **Input Processing Tools**: These are tools designed to ingest data and various inputs for the application.
-2. **LLM Development Tools**: These tools facilitate interaction with the Large Language Model, including calling, fine-tuning, conducting experiments, and orchestration.
-3. **Output Tools**: These tools are utilized for managing the output from the LLM application, essentially focusing on post-output processes.
-4. **Application Tools**: These tools oversee the comprehensive management of the aforementioned three components, including application hosting, monitoring, and more.
+1. **Input Processing Tools**: Tooling to to ingest data and various inputs for the application.
+2. **LLM Development Tools**: To facilitate interactions with the Large Language Model, including calling, fine-tuning, conducting experiments, and orchestration.
+3. **Output Tools**: To manage the outputs from the LLM applications, essentially focusing on post-output processes.
+4. **Application Tools**: Operational management including application hosting, monitoring, and alerting.
 
 RAG-based applications generally follow this process:
 
