@@ -75,7 +75,9 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Data Engineer Newsletter by Zach Wilson](https://blog.dataengineer.io/) with even [more DE resources](https://github.com/DataExpert-io/data-engineer-handbook)
 
-- [Non-native vs Native Graph Technology](https://neo4j.com/blog/native-vs-non-native-graph-technology/)
+- [Non-native vs Native Graph Technology by Neo4J](https://neo4j.com/blog/native-vs-non-native-graph-technology/)
+
+- [System Design Primer by Donne Martin](https://github.com/donnemartin/system-design-primer)
 
 ### Resources
 
