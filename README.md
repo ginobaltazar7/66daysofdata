@@ -17,15 +17,19 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) 
 
-## Selected Other Useful Resources ##
+## Curated Recent Reads ##
+
+- [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c?gi=90a4353417ad)
 
 - [Guided Code Generation with LLMs: A Multi-Agent Framework for Complex Code Tasks by Amr Almorsi, et al](https://arxiv.org/pdf/2501.06625)
+
+- [List of LLM Evaluation Papers](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers)
 
 - [Chain-of-Verification Reduces Hallucination in Large Language Models by Shehzaad Dhuliawala ,et al](https://arxiv.org/abs/2309.11495)
 
 - [FACTIFY: A Multi-Modal Fact Verification Dataset by Ashwarya Reganti, et al](https://ceur-ws.org/Vol-3199/paper18.pdf)
 
-- [Become an LLM Engineer in 8 weeks by Ed Donner](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/)
+- [LLM Engineering Resources by Ed Donner](https://edwarddonner.com/2024/11/13/llm-engineering-resources/) along with a [8 week hands-on course](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/)
 
 - [Gallery of interesting Jupyter Notebooks by Lorena Barba](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
@@ -69,7 +73,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Fireside Chat with Aparna Ramani & Yann LeCun at May 2022 Data@Scale, touches on self-supervised machine learning and emerging DS trends](https://fb.watch/dvgGdS02Yk/) along with [Ms. Ramani's keynote](https://fb.watch/dvh5W0EQHV/)
 
-- [Zach Wilson's Data Engineer Newsletter - great for DE reskilling or upleveling along with DE bootcamps](https://blog.dataengineer.io/)
+- [Data Engineer Newsletter by Zach Wilson](https://blog.dataengineer.io/) with even [more DE resources](https://github.com/DataExpert-io/data-engineer-handbook)
 
 - [Non-native vs Native Graph Technology](https://neo4j.com/blog/native-vs-non-native-graph-technology/)
 
