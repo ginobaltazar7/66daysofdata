@@ -2,9 +2,9 @@
 
 ## TL;DR
 
-There are a number of complexities of deploying LLMs and managing them effectively throughout their lifecycle. A practice called 'LLMOps' which involves specialized practices, techniques, and tools tailored to the operational management of LLMs in production environments will be discussed. 
+LLM's can be complex beasts.  When deploying LLM's to prod, it is generally good practice to create an abstraction framework to ensure uptime and performance.  
 
-LLM deployment lifecycle will next be examined in the context of operational efficiency. In depth coverage of the crucial components for deployment, namely Monitoring and Observability for LLMs, as well as Security and Compliance for LLMs will also be discussed.
+A practice called 'LLMOps' which involves specialized practices, techniques, and tools is usually employed. Doing so helps tailor their deployment and with any other technology product, apply layers for Monitoring, Observability, Security, Compliance.
 
 ## LLMOps, Deployment, Monitoring, and Security
 
