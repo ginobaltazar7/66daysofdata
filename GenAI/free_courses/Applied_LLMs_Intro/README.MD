@@ -10,7 +10,7 @@ This is a short intro on the foundations, architectural basics, applications and
 
 
 ### Content
-
+<details>
 <summary>**Architecture**</summary>
 - [Part 1.1 Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part01_1_foundations.md)
 - [Part 1.2 Domain Task Adaptation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part01_2_domain_task_adaptation.md)
@@ -29,6 +29,7 @@ This is a short intro on the foundations, architectural basics, applications and
 - [Part 9 Challenges](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part9_challenges_with_llms.md)
 <summary>**Research Elsewhere**</summary>
 - [Part 10 Research and Trends](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part10_research_trends.md)
+</details>
 
 ### Disclaimer
 
