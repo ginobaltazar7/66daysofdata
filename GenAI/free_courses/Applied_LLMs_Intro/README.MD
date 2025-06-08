@@ -11,17 +11,23 @@ This is a short intro on the foundations, architectural basics, applications and
 
 ### Content
 
+<summary>**Architecture**</summary>
 - [Part 1.1 Foundations](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part01_1_foundations.md)
 - [Part 1.2 Domain Task Adaptation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part01_2_domain_task_adaptation.md)
 - [Part 1.3 Microsoft Free Video Intro to GenAI and LLMs](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/introduction-to-generative-ai-and-llms-generative-ai-for-beginners)
+<summary>**Generation Control**</summary>
 - [Part 2 Prompting](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part2_prompting.md)
 - [Part 3 Finetuning LLMs](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part3_finetuning_llms.md)
 - [Part 4 RAG](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part4_RAG.md)
+<summary>**Tooling**</summary>
 - [Part 5 Tooling](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part5_tools_for_LLM_apps.md)
+<summary>**Evaluation**</summary>
 - [Part 6 Evaluation](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part6_llm_evaluation.md)
+<summary>**Buildout and Challenges**</summary>
 - [Part 7 Building](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part7_build_llm_app.md)
 - [Part 8 Advanced Features](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part8_advanced_features.md)
 - [Part 9 Challenges](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part9_challenges_with_llms.md)
+<summary>**Research Elsewhere**</summary>
 - [Part 10 Research and Trends](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/part10_research_trends.md)
 
 ### Disclaimer
