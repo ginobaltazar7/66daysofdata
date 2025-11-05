@@ -17,6 +17,8 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 - [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) 
 
+- [Sample Whatsapp Assistant built on AWS](https://github.com/build-on-aws/building-gen-ai-whatsapp-assistant-with-amazon-bedrock-and-python)
+
 ## Curated Recent Reads ##
 
 - [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c?gi=90a4353417ad)
