@@ -15,7 +15,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 - [Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
 
-- [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#playbooks) - there are many Claude resources out there however are a few favorites.
+- [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/#playbooks) - there are many Claude resources out there however are a few favorites.
 
 - [Claude Code Video for Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#videos) - a recent video by Anthropic on leveraging Claude Code for data engineering.
 
