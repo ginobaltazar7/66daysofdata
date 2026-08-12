@@ -13,7 +13,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## GenAI and Claude
 
--[Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
+- [Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
 
 - [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#playbooks) - there are many Claude resources out there however are a few favorites.
 
