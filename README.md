@@ -1,6 +1,6 @@
 # 66daysofdata
 
-In support of the #66daysofdata initiative and the data science community, this repo is a TIL collection of data engineering and data science code and experiments for 66 days+. Just updated 2025H1 - GenAI*   
+In support of the #66daysofdata initiative and the data science community, this curated repo is a TIL collection of data engineering and data science code and experiments for 66 days+.  
 
 *"Why 66 days?  Because it is the average amount of days needed to establish a new habit. Creating solid data science habits is one of the most powerful things we can do to have longevity in this every dynamic field of technology. (Ken Jee)"*
 
@@ -8,18 +8,28 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Discord](https://discord.com/invite/VXSUJYJ)
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
+Last updated: [August 12, 2026](https://github.com/ginobaltazar7/awesome-data-engineering-til/commits/main/?since=2026-08-12).
 
-## GenAI
 
-- [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD)
+## GenAI and Claude
 
-- [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/generative_ai_intro/README.md)
+-[Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
 
-- [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) 
+- [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#playbooks) - there are many Claude resources out there however are a few favorites.
+
+- [Claude Code Video for Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#videos) - a recent video by Anthropic on leveraging Claude Code for data eingineering.
+
+- [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD) - self-learning course on Applied LLM.
+
+- [GenAI Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/generative_ai_intro/README.md) - self-learning course on GenAI.
+
+- [Resources](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/resources/README.md) - more resources for GenAI.
 
 - [Sample Whatsapp Assistant built on AWS](https://github.com/build-on-aws/building-gen-ai-whatsapp-assistant-with-amazon-bedrock-and-python)
 
 ## Curated Recent Reads ##
+
+- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) Can coordinated agent executed be encoded with artificial "hesitation" barriers?
 
 - [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c?gi=90a4353417ad)
 
@@ -83,7 +93,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 
 ### Resources
 
-- [Awesome Data Engineering TIL](https://github.com/ginobaltazar7/awesome-data-engineering-til)
+- [Awesome Data Engineering TIL](https://github.com/ginobaltazar7/awesome-data-engineering-til) There are many Data Engineering Resources out there, however these is my own curated list!
 
 ### Data Sets
 
