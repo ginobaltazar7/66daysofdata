@@ -8,7 +8,7 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Discord](https://discord.com/invite/VXSUJYJ)
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
-Last updated: [August 12, 2026](https://github.com/ginobaltazar7/awesome-data-engineering-til/commits/main/?since=2026-08-12).
+Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/commits/master/?since=2026-08-12).
 
 
 ## GenAI and Claude
