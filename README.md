@@ -29,6 +29,8 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
+- [Databricks Data Modeling using Plain English](https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling) - Databricks now helps build your Silver Layer model describng your business workflows or domain using plain English!
+
 - [Stripe uses Graph to automate Database Remediation](https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet) Novel and practical engineering, applying graph theory to an everyday problem, at scale, that helped reduce their oncall pager volume by 30%!
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) Can coordinated agent executed be encoded with artificial "hesitation" barriers? Researcher's [note](https://nanothoughts.substack.com/p/reflecting-on-reflexion).
