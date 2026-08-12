@@ -17,7 +17,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 - [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#playbooks) - there are many Claude resources out there however are a few favorites.
 
-- [Claude Code Video for Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#videos) - a recent video by Anthropic on leveraging Claude Code for data eingineering.
+- [Claude Code Video for Data Engineering](https://github.com/ginobaltazar7/awesome-data-engineering-til/tree/main#videos) - a recent video by Anthropic on leveraging Claude Code for data engineering.
 
 - [Applied LLM Intro](https://github.com/ginobaltazar7/66daysofdata/blob/master/GenAI/free_courses/Applied_LLMs_Intro/README.MD) - self-learning course on Applied LLM.
 
