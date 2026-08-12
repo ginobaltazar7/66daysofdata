@@ -29,9 +29,9 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
-- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) Can coordinated agent executed be encoded with artificial "hesitation" barriers?
+- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) Can coordinated agent executed be encoded with artificial "hesitation" barriers? Researcher's [note](https://nanothoughts.substack.com/p/reflecting-on-reflexion).
 
-- [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c?gi=90a4353417ad)
+- [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c)
 
 - [Guided Code Generation with LLMs: A Multi-Agent Framework for Complex Code Tasks by Amr Almorsi, et al](https://arxiv.org/pdf/2501.06625)
 
@@ -39,7 +39,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 - [Chain-of-Verification Reduces Hallucination in Large Language Models by Shehzaad Dhuliawala ,et al](https://arxiv.org/abs/2309.11495)
 
-- [FACTIFY: A Multi-Modal Fact Verification Dataset by Ashwarya Reganti, et al](https://ceur-ws.org/Vol-3199/paper18.pdf)
+- [FACTIFY: A Multi-Modal Fact Verification Dataset](https://github.com/surya1701/Factify-2.0)
 
 - [LLM Engineering Resources by Ed Donner](https://edwarddonner.com/2024/11/13/llm-engineering-resources/) along with a [8 week hands-on course](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/)
 
