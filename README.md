@@ -91,11 +91,11 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 - [System Design Primer by Donne Martin](https://github.com/donnemartin/system-design-primer)
 
-### Resources
+## Resources
 
 - [Awesome Data Engineering TIL](https://github.com/ginobaltazar7/awesome-data-engineering-til) There are many Data Engineering Resources out there, however these is my own curated list!
 
-### Data Sets
+## Data Sets
 
 - [/r/datasets - A subreddit for sharing datasets](https://www.reddit.com/r/datasets/)
 
@@ -104,7 +104,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 - [Travel related Amadeus](https://developers.amadeus.com/quick-start-guide/category?id=97&durl=335&parentId=NaN) and other [travel APIs via Altexsoft](https://www.altexsoft.com/blog/engineering/travel-and-booking-apis-for-online-travel-and-tourism-service-providers/)
 
 
-### Excel
+## Excel
 
 Microsoft Excel is still widely used today for starting analyses e.g. in healthcare, government, non-profit. Sampling of useful resources.
 
@@ -117,17 +117,17 @@ Microsoft Excel is still widely used today for starting analyses e.g. in healthc
 - [Non-online resource I recommend is Gerald Knight's O'Reilly book "Analyzing Business Data with Excel"](http://shop.oreilly.com/product/9780596100735.do)
 
 
-### Support Me
+## Support Me
 
 If you like this list consider supporting me!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ginobaltazar)
 
-### Credit
+## Credit
 
 Nod to respective authors above for their respective works as indicated above.
 
-## License
+### License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
