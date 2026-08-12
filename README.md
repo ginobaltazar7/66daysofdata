@@ -29,6 +29,8 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
+- [Stripe uses Graph to automate Database Remediation](https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet) Novel and practical engineering, applying graph theory to an everyday problem, at scale, that helped reduce their oncall pager volume by 30%!
+
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) Can coordinated agent executed be encoded with artificial "hesitation" barriers? Researcher's [note](https://nanothoughts.substack.com/p/reflecting-on-reflexion).
 
 - [LLMs in Production: A Comparison of GCP, Azure, and AWS by Rafal Lagowski](https://faun.pub/leveraging-large-language-models-llms-in-production-a-comparison-of-gcp-azure-and-aws-9358bdd4375c)
