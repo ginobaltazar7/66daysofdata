@@ -11,9 +11,11 @@ In support of the #66daysofdata initiative and the data science community, this 
 Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/commits/master/?since=2026-08-12).
 
 
-## GenAI and Claude
+## GenAI, Agents and Claude
 
 - [Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
+
+- [Production Grade Engineering Skills for AI Agents](https://github.com/addyosmani/agent-skills) - I like the notion of giving agents the same type of structured workflows that enforce the same discipline senior or staff engineers bring to production code.
 
 - [Claude Playbook Resources](https://github.com/ginobaltazar7/awesome-data-engineering-til/#playbooks) - there are many Claude resources out there however are a few favorites.
 
