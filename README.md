@@ -31,7 +31,7 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
-- [Databricks Data Modeling using Plain English](https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling) - Databricks now helps build your Silver Layer model describng your business workflows or domain using plain English!
+- [Databricks Data Modeling using Plain English](https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling) - Databricks now helps build your Silver Layer model describing your business workflows or domain using plain English!
 
 - [Stripe uses Graph to automate Database Remediation](https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet) Novel and practical engineering, applying graph theory to an everyday problem, at scale, that helped reduce their oncall pager volume by 30%!
 
@@ -110,9 +110,13 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 - [Travel related Amadeus](https://developers.amadeus.com/quick-start-guide/category?id=97&durl=335&parentId=NaN) and other [travel APIs via Altexsoft](https://www.altexsoft.com/blog/engineering/travel-and-booking-apis-for-online-travel-and-tourism-service-providers/)
 
 
-## Excel
+## Excel + MCP
 
-Microsoft Excel is still widely used today for starting analyses e.g. in healthcare, government, non-profit. Sampling of useful resources.
+Microsoft Excel is still widely used today for starting analyses e.g. in healthcare, government, non-profit. Sampling of useful resources, including MCP (ODBC for agentic era) that connect LLMs to Excel applications.
+
+- [MCP Server for Excel](https://marketplace.visualstudio.com/items?itemName=sbroenne.excel-mcp) - interacts with the actual Excel desktop application via its official COM API.
+
+- [Excel MCP Server using Python](https://github.com/yzfly/mcp-excel-server) - implementation of an MCP server utilizing Python data stacks (like openpyxl and pandas) to let AI assistants read, analyze, and write directly to multi-format spreadsheets via natural language.
 
 - [Analysis Toolpak](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4)
 
