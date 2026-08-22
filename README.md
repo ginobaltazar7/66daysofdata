@@ -31,6 +31,8 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
+- [Data Engineering Whitepapers](https://www.ssp.sh/brain/data-engineering-whitepapers/#e1b169) - Recently re-updated in August 2026, curated list of influential whitepapers in the field of data engineering.
+
 - [Databricks Data Modeling using Plain English](https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling) - Databricks now helps build your Silver Layer model describing your business workflows or domain using plain English!
 
 - [Stripe uses Graph to automate Database Remediation](https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet) Novel and practical engineering, applying graph theory to an everyday problem, at scale, that helped reduce their oncall pager volume by 30%!
