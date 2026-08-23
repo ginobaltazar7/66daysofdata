@@ -31,6 +31,8 @@ Last updated: [August 12, 2026](https://github.com/ginobaltazar7/66daysofdata/co
 
 ## Curated Recent Reads ##
 
+- [AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support](https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/) - full Apache Icebergy v3 support on Spark 4.1 and "milliseconds faster on real-time streaming mode"
+
 - [Data Engineering Whitepapers](https://www.ssp.sh/brain/data-engineering-whitepapers/#e1b169) - Recently re-updated in August 2026, curated list of influential whitepapers in the field of data engineering.
 
 - [Databricks Data Modeling using Plain English](https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling) - Databricks now helps build your Silver Layer model describing your business workflows or domain using plain English!
