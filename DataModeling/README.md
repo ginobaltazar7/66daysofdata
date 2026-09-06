@@ -6,10 +6,11 @@ However in developing software, data modeling is perhaps one of the most importa
 
 *"Torture the Data and it will Confess to Everything" (Ronald Coase, Economics Nobel Laureate)*
 
+Last updated: [September 2026](https://github.com/ginobaltazar7/66daysofdata/commits/master/?since=2026-09-01)
 
 ### Contemporary
 
-[Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppman, starting on page 57 "Data Models and Query Languages"
+[Data Modeling, Fundamentals of Data Engineering](https://learning.oreilly.com/library/view/fundamentals-of-data/9781098108298/ch08.html#what_is_a_data_modelquestion_mark) by Joe Reis.
 
 [Building a Scalable Data Warehouse with Data Vault 2.0](https://www.amazon.com/Building-Scalable-Data-Warehouse-Vault/dp/0128025107/r) by Daniel Linstedt and Michael Olschimke
 
@@ -21,11 +22,13 @@ However in developing software, data modeling is perhaps one of the most importa
 
 [Six-Step Relational Database Design](https://www.amazon.com/Six-Step-Relational-Database-Design-development/dp/1481942727) by Fidel Captain
 
-[Building a Scalable Data Warehouse with Data Vault 2.0](https://www.amazon.com/Building-Scalable-Data-Warehouse-Vault/dp/0128025107/r) by Daniel Linstedt and Michael Olschimke
-
-[Agile Data Warehouse Design: Collaborative Dimensional Modeling, from Whiteboard to Star Schema](https://www.amazon.com/Agile-Data-Warehouse-Design-Collaborative/dp/0956817203/r) by Lawrence Corr and Jim Stagnitto
 
 ### Reference 
+
+[Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppman, starting on page 57 "Data Models and Query Languages"
+
+
+[Chapter 8. Approaches to Data Modeling, Deciphering Data Architectures](https://learning.oreilly.com/library/view/deciphering-data-architectures/9781098150754/ch08.html#summary-id00017) by James Serra.
 
 [DAMA-DMBOK Data modeling](https://www.amazon.com/DAMA-DMBOK-Data-Management-Body-Knowledge/dp/1634622340) by DAMA International
 
@@ -37,9 +40,9 @@ However in developing software, data modeling is perhaps one of the most importa
 
 
 ### Useful Tools
-[DBDiagram](https://dbdiagram.io/home) free, simple tool to draw ER diagrams by just writing code.
+[DBDiagram](https://dbdiagram.io/home) Free (mostly), simple tools to draw ER diagrams, data lineages, BI analytics as code. Powered by [Holistics](https://www.holistics.io/difference/)
 
-[Holistics](https://docs.holistics.io/docs/modeling/) BI platform that aims to enable self-service data.  And a [short demo](https://www.youtube.com/watch?v=CCGPheSCVYQ) how to create A Google Cloud MySQL Database and a Dash in Holistics 
+[Holistics](https://docs.holistics.io/docs/modeling/) BI platform that aims to enable self-service data.  And a [short demo](https://www.youtube.com/watch?v=CCGPheSCVYQ) how to create A Google Cloud MySQL Database and a Dash in Holistics. 
 
 
 ### Support Me
