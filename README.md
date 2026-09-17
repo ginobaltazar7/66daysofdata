@@ -13,6 +13,8 @@ Last updated: [September 2026](https://github.com/ginobaltazar7/66daysofdata/com
 
 ## GenAI, Agents and Claude
 
+- [Claude Code for Agentic-Ai-Data-Operations](https://github.com/aws-samples/sample-Agentic-Ai-Data-Operations) - Turn weeks of data pipeline development from weeks to hours. Includes agents for data onboarding/ingestion, data quality, data orchestration, ontology staging and problem management/root cause management. 
+
 - [Claude Code for Staff Data Architecture](https://github.com/ginobaltazar7/awesome-data-engineering-til/blob/main/playbooks/claude-data-engineering-framework.md) — See my sample design guide and baseline configuration implementing **Data Contracts**, shift-left CI/CD validation, and automated **Amundsen** catalog tracking.
 
 - [Production Grade Engineering Skills for AI Agents](https://github.com/addyosmani/agent-skills) - I like the notion of giving agents the same type of structured workflows that enforce the same discipline senior or staff engineers bring to production code.
