@@ -8,10 +8,12 @@ In support of the #66daysofdata initiative and the data science community, this 
 [Discord](https://discord.com/invite/VXSUJYJ)
 [Youtube](https://www.youtube.com/watch?v=uXLnbdHMf8w)
 
-Last updated: [September 2026](https://github.com/ginobaltazar7/66daysofdata/commits/master/?since=2026-09-01).
+Last updated: [October 2026](https://github.com/ginobaltazar7/66daysofdata/commits/master/?since=2026-10-01).
 
 
 ## GenAI, Agents and Claude
+
+- [Microsoft GenAI in 21 Lessons](https://github.com/microsoft/generative-ai-for-beginners/) - Very good GenAI self-starter resource and you can also access them through [learn.microsoft.com](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/)
 
 - [Claude Code for Agentic-Ai-Data-Operations](https://github.com/aws-samples/sample-Agentic-Ai-Data-Operations) - Turn weeks of data pipeline development from weeks to hours. Includes agents for data onboarding/ingestion, data quality, data orchestration, ontology staging and problem management/root cause management. 
 
